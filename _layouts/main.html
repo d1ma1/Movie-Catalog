@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>БГ Филми</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="site-header">
+                <section class="logo">
+
+                   
+                    <div><p>БГ </p> <p> ФИЛМИ</p></div>
+                    <div> <p></p><img src="logo/logo1.jpg" alt=""></div>
+                </section>
+                <section class="search">
+                    <form>
+                        <div>
+                            <input type="search" id="mySearch" name="q" placeholder="Намери филм"><input type="submit" value="Търси">
+                        </div>
+                    </form>
+                </section>
+
+                <section class="log-in">
+                    <ul>
+                        <li><a href="#">Вход</a></li>
+                    </ul>
+                </section>
+            </div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="{{ site.baseurl }}">Начало</a></li>
+                    <li><a href="{{ site.baseurl }}about">Филми</a></li>
+                    <li><a href="{{ site.baseurl }}/about">Ревюта</a></li>
+                    <li><a href="#">Създай филм</a></li>
+                    <li><a href="#">Напиши ревю</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        {{ content }}
+
+        <footer class="site-footer">
+            <p>Copyright © 2019</p>
+            <div class="social">
+                <i class="fab fa-facebook-square"></i> 
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i> 
+            </div>
+
+        </footer>
+
+    </div>
+</body>
+</html>
