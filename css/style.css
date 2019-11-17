@@ -14,7 +14,7 @@ html {
 }
 
 html {
-    font: 14px/1.5 'Montserrat', sans-serif;
+    font: 14px/1.5 'Roboto Condensed', sans-serif;
 }
 
 body, button, input, option, select, form, table {
@@ -109,14 +109,23 @@ li {
 .site-nav {
     background: #FF8D1B;
     padding: 1rem 10rem;
+    height: 50px;
+    left: 0px;
+    right: 0px;
 }
 
-.site-nav ul { 
+.site-nav ul, .nav-alphabet ul { 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-.site-nav ul li {
+.nav-alphabet ul { 
+   padding-left: 6rem;
+   padding-bottom: 2em;
+}
+
+
+.site-nav ul li, .nav-alphabet ul li {
     display: block;
 }
 
@@ -126,6 +135,17 @@ li {
     color: white;
     border-right: 1px dotted white;
     text-transform: uppercase;
+    font-size: 15px;
+}
+
+ .nav-alphabet ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    border: 1px solid  #717171;
+    border-radius: 0.3em;
+    font-size: 15px;
+    margin: 0.3em;
 }
 
 .site-nav ul li:nth-child(1) a {
@@ -138,15 +158,20 @@ li {
     border-bottom: 2.3px solid black;
 }
 
+
 /* main */
 
-h4.latest-text {
+.site-main h4.latest-text, .site-movies h4.latest-text {
     border-left: 0.2rem solid #ff8d1b;
     font-size: 1.5rem;
     font-weight: normal;
     color: #212121;
     margin: 2.5rem 0 0 6rem;
     padding: 0.5rem 0.5rem;
+}
+
+.site-movies h4.latest-text {
+    margin-bottom: 2.5rem;
 }
 
 .movie {
@@ -187,15 +212,83 @@ h4.latest-text {
 /* footer */
 
 .site-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
+   /* height: 40px; */
     background-color: black;
     color: white;
-    padding: 0.5rem 6rem 0.5rem 7rem;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem 1rem 7rem;   
+    /* position: fixed; */
 }
 
 .site-footer i {
     padding-left: 1em;
 }
 
+/* MOVIE LIST */
+
+.movies-list {
+
+}
+
+table {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-bottom: 2rem;
+}
+
+table tr, table th, table td {
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: .95em;
+}
+
+table th {
+    background:  #ff8d1b;
+    color: #000000;
+    font-size: 1em;
+}
+
+table th, table td {
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table tr, table th, table td {
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+table {
+    border-spacing: 0;
+    /* border-collapse: collapse; */
+}
+
+/** tbody*/
+
+html, body {
+    font-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* background: #ffffff; */
+}
+
+td.w3-list-img a span {
+    color: #000000;
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+td.w3-list-img a {
+    text-decoration: none;
+}
+
+tr:nth-child(odd){
+    background: #EFEFEF;
+}

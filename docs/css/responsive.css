@@ -19,8 +19,16 @@
         width: 50vw;
     }
 
+    .site-nav {
+        height: 100%;;
+    }
+
     .site-nav ul li a {
         border: none;
+        /* width: 100%; */
+        font-size: 12px;
+        display: inline-block;
+        /* padding: 1rem; */
     }
 
     .site-nav ul li:nth-child(1) a {
