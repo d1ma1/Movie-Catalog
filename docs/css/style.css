@@ -154,8 +154,9 @@ li {
 
 .site-nav ul li a:hover {
     background-color: black;
-    border-top: 2.3px solid black;
-    border-bottom: 2.3px solid black;
+    height: 50px;
+    /* border-top: 2.3px solid black;
+    border-bottom: 2.3px solid black; */
 }
 
 
