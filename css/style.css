@@ -13,7 +13,6 @@ html {
     box-sizing: inherit;
 }
 
-
 html {
     font: 14px/1.5 'Roboto Condensed', sans-serif;
 }
@@ -31,11 +30,11 @@ li {
 }
 
 .site-header {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin-right: auto;
     margin-left: auto;
-    border-top: 2px solid #FF8D1B;
+    border-top: 0.1rem solid #FF8D1B;
 }
 
 .site-header {
@@ -46,12 +45,12 @@ li {
 .logo {
     display: flex;
     flex-direction: row;
-    padding: 1.5em;
+    padding: 1.5rem;
 
 }
 
 .logo p:nth-child(1) {
-    font-size: 2em;
+    font-size: 2rem;
     color: #212121;
     padding-left: 0.5rem;
     font-weight: 900;
@@ -60,7 +59,7 @@ li {
 
 
 .logo p:nth-child(2) {
-    font-size: 1em;
+    font-size: 1rem;
     color: #FF8D1B;
     padding-left: 0.5rem;
     letter-spacing: 5px;

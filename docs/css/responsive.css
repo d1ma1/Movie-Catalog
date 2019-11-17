@@ -1,7 +1,19 @@
 @media (max-width: 1000px) {
-    .movie {
+
+    .site-main {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .movie > div {
+        padding-bottom: 2rem;
+    }
+
+    .site-header, .site-footer  {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
     }
 
 }
@@ -12,11 +24,7 @@
 }
 
 @media (max-width: 500px) {
-   
-   .movie {
-       display: flex;
-       flex-direction: column;
-   }
+ 
 }
 
 
