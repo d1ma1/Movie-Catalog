@@ -1,6 +1,6 @@
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
 
-* {
+*, .container {
     padding: 0;
     margin: 0;
 }
@@ -86,7 +86,7 @@ li {
     text-align: center;
     font-size: 14px;
     color: #999;
-    width: 30em;
+    width: 30vw;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     margin-top: 3em;
@@ -125,7 +125,7 @@ li {
 
 .site-nav {
     background: #FF8D1B;
-    padding: 1em 10em;
+    padding: 1rem 10rem;
 }
 
 .site-nav ul { 
@@ -135,14 +135,17 @@ li {
 
 .site-nav ul li {
     display: block;
+    /* width: 20em; */
 }
 
 .site-nav ul li a {
     text-decoration: none;
-    padding: 1em 2em;
+    word-break: keep-all;
+    padding: 1rem 2rem;
     color: white;
     border-right: 1px dotted white;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .site-nav ul li:nth-child(1) a {
@@ -160,15 +163,16 @@ li {
 
 /* main */
 
+
 h4.latest-text {
-    border-left: 3px solid #ff8d1b;
-    font-size: 1.5em;
+    border-left: 0.3rem solid #ff8d1b;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #212121;
     text-transform: uppercase;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-    padding: 0.5em 0.5em;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
     margin-left: 4em;
 }
 
@@ -193,12 +197,12 @@ h4.latest-text {
 
 .movie .info time {
     float: left;
-    padding-right: 3em;
+    padding-right: 3rem;
 
 }
 
 .movie img {
-    height: 300px;
+    height: 22vw;
     width: auto;
     border-radius: 1em;
 }

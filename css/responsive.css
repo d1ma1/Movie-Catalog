@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
 
-    .site-main {
+    .site-main, .site-header, .site-footer, .site-nav ul, .movie   {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -10,12 +10,24 @@
         padding-bottom: 2rem;
     }
 
-    .site-header, .site-footer  {
-        /* display: flex; */
-        flex-direction: column;
-        align-items: center;
+    .movie img {
+        height: 60vw;
+        width: auto;
     }
 
+    .search input[type="search"] {
+        width: 50vw;
+    }
+
+    .site-nav ul li a {
+        border: none;
+    }
+
+    .site-nav ul li:nth-child(1) a {
+        border-left: none;
+    }
+
+    
 }
 
 @media (max-width: 850px) {
