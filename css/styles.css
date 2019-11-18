@@ -108,7 +108,7 @@ li {
 
 .site-nav {
     background: #FF8D1B;
-    padding: 1rem 10rem;
+    padding: 1rem 6rem;
     height: 50px;
     left: 0px;
     right: 0px;
@@ -120,7 +120,7 @@ li {
 
 .site-nav ul, .nav-alphabet ul { 
     display: flex;
-    justify-content: center;
+    /* align-content: center; */
 }
 
 .nav-alphabet ul { 
@@ -133,9 +133,11 @@ li {
     display: block;
 }
 
+
+
 .site-nav ul li a {
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
     color: white;
     border-right: 1px dotted white;
     text-transform: uppercase;
