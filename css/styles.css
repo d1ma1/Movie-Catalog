@@ -162,7 +162,7 @@ li {
 
 /* main */
 
-.site-main h4.latest-text, .site-list h4.latest-text {
+.site-main h4.latest-text, .site-movies h4.latest-text {
     border-left: 0.2rem solid #ff8d1b;
     font-size: 1.5rem;
     font-weight: normal;
@@ -171,7 +171,7 @@ li {
     padding: 0.5rem 0.5rem;
 }
 
-.site-list h4.latest-text {
+.site-movies h4.latest-text {
     margin-bottom: 2.5rem;
 }
 
@@ -199,7 +199,7 @@ li {
 }
 
 .movie img {
-    height: 22vw;
+    height: 15vw;
     width: auto;
     border-radius: 1em;
 }
@@ -223,8 +223,8 @@ li {
     margin-bottom: 0px;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 6rem 1rem 7rem;   
-    /* position: fixed; */
+    padding: 0.5rem 6rem 0.5rem 7rem;   
+    position: fixed;
 }
 
 .site-footer i {
