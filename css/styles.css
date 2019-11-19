@@ -14,7 +14,7 @@ html {
 }
 
 html {
-    font: 14px/1.5 'Roboto Condensed', sans-serif;
+    font: 14px/1.5 var(--font-custom), sans-serif;
 }
 
 body, button, input, option, select, form, table {
@@ -75,6 +75,7 @@ li {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     margin-top: 3em;
+    /* box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.7) */
 }
 
 .search input[type="submit"] {
@@ -112,6 +113,7 @@ li {
     height: 50px;
     left: 0px;
     right: 0px;
+    /* box-shadow: 0 0 1em 0 rgba(248, 148, 6, 1); */
 }
 /* .site-nav .nav-active  {
     background: black;
@@ -161,6 +163,7 @@ li {
 .site-nav ul li a:hover {
     background-color: black;
     height: 50px;
+    transition: background 0.3s ease-in;
     /* border-top: 2.3px solid black;
     border-bottom: 2.3px solid black; */
 }

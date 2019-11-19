@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Каталог филми</title>
+    <script>
+        window.addEventListener('load', (event) => {
+            console.log('page is fully loaded');
+        });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -55,13 +60,13 @@
 
         <ul>
                 <li><a href="/list">Всички</a></li>
-                <li><a href="a">А</a></li>
+                <li class="active"><a href="a">А</a></li>
                 <li><a href="missing">Б</a></li>
                 <li><a href="missing">В</a></li>
                 <li><a href="g">Г</a></li>
                 <li><a href="missing">Д</a></li>
                 <li><a href="missing">Е</a></li>
-                <li class="active"><a href="zh">Ж</a></li>
+                <li><a href="zh">Ж</a></li>
                 <li><a href="missing">З</a></li>
                 <li><a href="i">И</a></li>
                 <li><a href="missing">Й</a></li>
@@ -102,42 +107,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                   
-                <tr>
-                        <td>1</td>
-                        <td class="list-img"><img src="images/7.jpg" alt="heat"> <p> Жега / Heat</p></td>
-                        <td>Майкъл Ман </td>
-                        <td> Ал Пачино, Робърт Де Ниро, Вал Килмър</td>
-                        <td>САЩ </td>
-                        <td>1995</td>
-                        <td>Криминален, Драма, Трилър</td>
-                        <td>8.2</td>
-                </tr>    
-                
-                <tr>
-                        <td>2</td>
-                        <td class="list-img"><img src="images/4.jpg" alt="joker"> <p> Жокера / Joker  </p></td>
-                        <td>Тод Филипс</td>
-                        <td>Хоакин Финикс, Зази Бийц, Робърт Де Ниро</td>
-                        <td>САЩ</td>
-                        <td>2019</td>
-                        <td>Екшън, Драма, Трилър</td>
-                        <td>8.8</td>
-                </tr>
-
-                
-                <tr>
-                        <td>3</td>
-                        <td class="list-img"><img src="images/2.jpg" alt="interstellar"> <p> Интерстелар / Interstellar </p></td>
-                        <td>Кристофър Нолан </td>
-                        <td> Матю Макконъхи, Ан Хатауей, Мат Деймън</td>
-                        <td>САЩ, Великобритания, Канада</td>
-                        <td>2014</td>
-                        <td>Приключенски, Драма, Фантастика</td>
-                        <td>8.8</td>
-                </tr>
-
+                      
                 </tbody>
+              
                 </table>
 
         </section>

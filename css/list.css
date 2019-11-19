@@ -17,6 +17,7 @@
     background:  var(--orange);
     color: #000000;
     font-size: 1em;
+    
 }
 
 .movies-list table th, table td {
@@ -24,11 +25,15 @@
     text-align: left;
 }
 
+/* .movies-list thead, .movies-list tbody {
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+} */
+
 /** tbody*/
 
 html, body {
     /* font-size: 100%; */
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--font-custom), sans-serif;
 }
 
 td.list-img a span {
@@ -52,7 +57,9 @@ tr:nth-child(odd){
     background: var(--orange);
     color: white;
     border: 1px solid var(--orange);
+    /* box-shadow: 0 0 1em 0 rgba(248, 148, 6, 1); */
 }
+
 
 .list-img img {
     height: 120px;
