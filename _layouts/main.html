@@ -27,14 +27,15 @@
                 <section class="search">
                     <form>
                         <div>
-                            <input type="search" placeholder="Намери филм"><input type="submit" value="Търси">
+                            <input type="search" placeholder="Намери филм">
+                            <input type="submit" value="Търси">
                         </div>
                     </form>
                 </section>
 
                 <section class="log-in">
-                    <ul> 
-                        <li><a href="#">Вход</a></li> 
+                    <ul>
+                        <li><a href="#">Вход</a></li>
                     </ul>
                 </section>
             </div>
@@ -42,27 +43,27 @@
             <!-- <div class="santa"><img src="images/santa.jpg" alt=""></div> -->
             <nav class="site-nav">
                 <ul>
-                    <li><a class = "nav-active" href="{{ site.baseurl }}index">начало</a></li>
-                    <li><a href="{{ site.baseurl }}list">списък филми (а-я)</a></li>
-                    <li><a href="{{ site.baseurl }}registration">регистрирай филм</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/index">начало</a></li>
+                    <li><a href="{{ site.baseurl }}/list">списък филми (а-я)</a></li>
+                    <li><a href="{{ site.baseurl }}/registration">регистрирай филм</a></li>
                     <!-- <li><a href="{{ site.baseurl }}">0 - 9</a></li> -->
-               
+
                     <!-- <li><a href="{{ site.baseurl }}about">Ревюта</a></li>
                     <li><a href="{{ site.baseurl }}about">Създай филм</a></li>
                     <li><a href="{{ site.baseurl }}about">Напиши ревю</a></li> -->
                 </ul>
             </nav>
-       
+
         </header>
-        
+
         {{ content }}
 
         <footer class="site-footer">
             <p>Copyright © 2019</p>
             <div class="social">
-                <i class="fab fa-facebook-square"></i> 
+                <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i> 
+                <i class="fab fa-twitter"></i>
             </div>
 
         </footer>

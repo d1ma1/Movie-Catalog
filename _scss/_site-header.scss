@@ -12,7 +12,7 @@
             font-size: 1.1rem;
             color: $color-orange;
             letter-spacing: 5px;
-            line-height: 0.5em;
+            line-height: 0.5rem;
             text-align: right;
         }
 
@@ -49,7 +49,7 @@
             border: none;
             background: $color-black;
             padding: 10px 0;
-            color: #fff;
+            color:  $color-white;
             width: 5em;
             border-top-right-radius: 1.5rem;
             border-bottom-right-radius: 1.5rem;
@@ -64,7 +64,7 @@
             display: block;
     
             a {
-                color: #fff;
+                color:  $color-white;
                 text-transform: uppercase;
                 text-decoration: none;
                 background: $color-orange;
@@ -74,6 +74,10 @@
             } 
         }
     }
+}
+
+.active a {
+    background: $color-black;
 }
 
 .site-nav {
@@ -103,16 +107,15 @@
         }
 
         li a:hover {
-            background-color: black;
+            background-color: $color-black;
             height: 50px;
-            transition: background 0.3s ease-in;
-            // border-top: 2.3px solid black;
-            // border-bottom: 2.3px solid black;
+            //transition: background 0.3s ease-in;
+            // border-top: 2.3px solid  $color-black;
+            // border-bottom: 2.3px solid  $color-black;
         }
 
         li:nth-child(1) a {
             border-left: 1px dotted white;
         }
-        
     }
 }
