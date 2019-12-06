@@ -1,47 +1,7 @@
-@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
-
-*, .container {
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-html {
-    font: 14px/1.5 var(--font-custom), sans-serif;
-}
-
-body, button, input, option, select, form, table {
-    font: inherit;
-}
-
-body {
-    background: url('images/santa.jpg');
-}
-
-p, ul, ol {
-    /* padding-bottom: 1.5em; */
-}
-
-li {
-    list-style-position: inside;
-}
-
-/* animation*/
-
-
-/* end animation*/
 .site-header {
     display: flex;
     justify-content: space-around;
-    border-top: 0.1rem solid #FF8D1B;
-
+    border-top: 0.1rem solid $color-orange;
 }
 
 .logo {
@@ -52,14 +12,14 @@ li {
 
 .logo p:nth-child(2){
     font-size: 2rem;
-    color: #212121;
+    color: $color-black;
     margin-right: 0.5rem;
 }
 
 
 .logo p:nth-child(1) {
     font-size: 1.1rem;
-    color: #FF8D1B;
+    color: $color-orange;
     letter-spacing: 5px;
     line-height: 0.5em;
     text-align: right;
@@ -76,7 +36,7 @@ li {
 
 .search input[type="search"] {
     border: none;
-    background: #EFEFEF;
+    background: $color-lightgray;
     text-align: center;
     width: 30em;
     border-top-left-radius: 25px;
@@ -87,7 +47,7 @@ li {
 
 .search input[type="submit"] {
     border: none;
-    background: #212121;
+    background: $color-black;
     padding: 10px 0;
     color: #fff;
     width: 5em;
@@ -108,14 +68,14 @@ li {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    background: #FF8D1B;
+    background: $color-orange;
     text-align: center;
     padding: 10px 30px;
     font-weight: bold;
 }
 
 .site-nav {
-    background: #FF8D1B;
+    background: $color-orange;
     padding: 1rem 6rem;
     height: 50px;
     left: 0px;
@@ -188,10 +148,10 @@ li {
 
 
 .site-main h4.latest-text, .site-movies h4.latest-text {
-    border-left: 0.2rem solid #ff8d1b;
+    border-left: 0.2rem solid $color-orange;
     font-size: 1.5rem;
     font-weight: normal;
-    color: #212121;
+    color: $color-black;
     margin: 2.5rem 0 0 6rem;
     padding: 0.5rem 0.5rem;
 }
@@ -208,7 +168,7 @@ li {
 }
 
 .movie i{
-    color: #ff8d1b;
+    color: $color-orange;
 }
 
 .movie3 .stars i:nth-child(6),

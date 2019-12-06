@@ -1,7 +1,5 @@
-:root {
-    --orange: #ff8d1b;
-    --lightgray: #EFEFEF;
-    /* --font-custom: Verdana; */
-    /* --font-custom: 'Roboto Condensed' */
-    --font-custom: Verdana;
-}
+
+$font-custom: Verdana, 'Roboto Condensed', sans-serif;
+$color-orange: #ff8d1b;
+$color-black: #212121;
+$color-lightgray: #EFEFEF;
