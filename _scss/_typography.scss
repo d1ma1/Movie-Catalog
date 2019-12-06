@@ -1,0 +1,19 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+html {
+    font: 14px/1.5 $font-custom;
+    
+}
+
+body, button, input, option, select, form, table {
+    font: inherit;
+}
+
+body {
+    background: url('images/santa.jpg');
+}
+
+
+li {
+    list-style-position: inside;
+}
