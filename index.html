@@ -1,22 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: main
 ---
+
 <main class="site-main">
 
     <h4 class="latest-text">Най-високо оценени филми</h4>
 
     <div class="movie">
 
-    <div class="movie1"> 
-       
-        <img src="images/1.jpg" alt=""> 
-        <p> Генезис / Inception (2010)</p>
+    {% for movies in site.movies %}
+    <div class="movie{{ movies.image }}"> 
+        <img src="images/{{ movies.image }}.jpg" alt=""> 
+        <p> {{ movies.name }}</p>
         <div class="info">
-          
-            <div class="stars">
+            {{ movies.stars }}
+            <div class="stars">             
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -26,56 +24,7 @@ layout: main
             </div>
         </div>
     </div> 
-
-    <div class="movie4">
-            <img src="images/4.jpg" alt=""> 
-            <p> Жокера  / Joker (2019) </p>
-           <div class="info">
-               <!-- <time>2019</time> -->
-               <div class="stars">
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-               </div>
-           </div>
-       </div>
-
-
-    <div class="movie3">
-        <img src="images/2.jpg" alt=""> 
-        <p> Интерстелар / Interstellar (2014)</p>
-        <div class="info">
-           
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="movie4">
-            <img src="images/3.jpg" alt=""> 
-            <p> Американски прелести / American beauty (2008)</p> 
-            <div class="info">
-              
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
-        </div>
-  
-
+    {% endfor %}
+    
     </div>
 </main>

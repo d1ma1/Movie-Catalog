@@ -1,6 +1,5 @@
 ---
 layout: main
-permalink: list
 ---
 <main class="site-movies">
 
@@ -43,7 +42,7 @@ permalink: list
     </nav>
 
     <section class="movies-list">
-        <table>
+    <table>
         <thead>
             <tr>
                 <th>Заглавие</th>
@@ -57,19 +56,19 @@ permalink: list
         </thead>
         <tbody>
 
-            {% include a.html %}
-            {% include b.html %}
-            {% include v.html %}
-            {% include g.html %}
-            {% include d.html %}
-            {% include e.html %}
-            {% include zh.html %}
-            {% include z.html %}
-            {% include i.html %}
-           
-                        
+            {% for movies in site.movies %}
+            <tr>
+                <td class="list-img"><img src="images/{{ movies.image }}.jpg" > <p> {{ movies.name }} </p></td>
+                <td>{{ movies.director }}  </td>
+                <td>{{ movies.actors }}</td>
+                <td>{{ movies.country }}</td>
+                <td>{{ movies.year }}</td>
+                <td>{{ movies.genre }}</td>
+                <td>{{ movies.stars }}</td>
+            </tr>
+            {% endfor %}           
+            
         </tbody>
-        </table>
+    </table>
     </section>
-    
 </main>

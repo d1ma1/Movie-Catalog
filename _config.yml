@@ -50,3 +50,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+collections:
+  movies:
+    output: true
+    sort_by: index
+
+collections_dir: collections
