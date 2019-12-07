@@ -9,8 +9,8 @@ layout: main
 
         <ul>
             <li class="active"><a href="#">Всички</a></li>
-            <li><a href="a">А</a></li>
-            <li><a href="missing">Б</a></li>
+            <li><a href="ada.html">А</a></li>
+            <li><a href="da.html">Б</a></li>
             <li><a href="missing">В</a></li>
             <li><a href="g">Г</a></li>
             <li><a href="missing">Д</a></li>
@@ -56,7 +56,10 @@ layout: main
         </thead>
         <tbody>
 
-            {% for movies in site.movies %}
+                {% include a.html %}
+                {% include b.html %}
+            
+            {% for movies in movie_list %}
             <tr>
                 <td class="list-img"><img src="images/{{ movies.image }}.jpg" > <p> {{ movies.name }} </p></td>
                 <td>{{ movies.director }}  </td>
@@ -66,7 +69,7 @@ layout: main
                 <td>{{ movies.genre }}</td>
                 <td>{{ movies.stars }}</td>
             </tr>
-            {% endfor %}           
+            {% endfor %}   
             
         </tbody>
     </table>

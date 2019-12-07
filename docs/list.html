@@ -12,6 +12,12 @@
             console.log('page is fully loaded');
         });
     </script>
+    <script>
+        $('li').on('click', function(){
+        $('li').removeClass('active');
+        $(this).toggleClass('active');
+        })
+    </script>
 </head>
 <body>
     <div class="container">
@@ -43,14 +49,14 @@
             <!-- <div class="santa"><img src="images/santa.jpg" alt=""></div> -->
             <nav class="site-nav">
                 <ul>
-                    <li class="active"><a href="/index">начало</a></li>
-                    <li><a href="/list">списък филми (а-я)</a></li>
-                    <li><a href="/registration">регистрирай филм</a></li>
-                    <!-- <li><a href="">0 - 9</a></li> -->
+                    <li class="active"><a href="/Movie-Catalog/index.html">начало</a></li>
+                    <li><a href="/Movie-Catalog/list.html">списък филми (а-я)</a></li>
+                    <li><a href="/Movie-Catalog/registration.html">регистрирай филм</a></li>
+                    <!-- <li><a href="/Movie-Catalog">0 - 9</a></li> -->
 
-                    <!-- <li><a href="about">Ревюта</a></li>
-                    <li><a href="about">Създай филм</a></li>
-                    <li><a href="about">Напиши ревю</a></li> -->
+                    <!-- <li><a href="/Movie-Catalogabout">Ревюта</a></li>
+                    <li><a href="/Movie-Catalogabout">Създай филм</a></li>
+                    <li><a href="/Movie-Catalogabout">Напиши ревю</a></li> -->
                 </ul>
             </nav>
 
@@ -64,8 +70,8 @@
 
         <ul>
             <li class="active"><a href="#">Всички</a></li>
-            <li><a href="a">А</a></li>
-            <li><a href="missing">Б</a></li>
+            <li><a href="ada.html">А</a></li>
+            <li><a href="da.html">Б</a></li>
             <li><a href="missing">В</a></li>
             <li><a href="g">Г</a></li>
             <li><a href="missing">Д</a></li>
@@ -111,6 +117,21 @@
         </thead>
         <tbody>
 
+                <tr>
+    <td class="list-img"><img src="images/3.jpg" alt="interstellar"> <p> Американски прелести / American beauty </p></td>
+    <td>Сам Мендес </td>
+    <td> Кевин Спейси, Анет Бенинг, Тора Бърч</td>
+    <td>САЩ</td>
+    <td>1999</td>
+    <td>Драма, Романтичен</td>
+    <td>8.3</td>
+</tr>
+
+
+
+
+                
+            
             
             <tr>
                 <td class="list-img"><img src="images/1.jpg" > <p> Генезис / Inception (2010) </p></td>
@@ -121,37 +142,7 @@
                 <td>Екшън, Приключенски, Фантастика</td>
                 <td>8.8</td>
             </tr>
-            
-            <tr>
-                <td class="list-img"><img src="images/4.jpg" > <p> Жокера / Jocker (2010) </p></td>
-                <td>Кристофър Нолан  </td>
-                <td>Леонардо Ди Каприо, Елън Пейдж, Марион Котияр</td>
-                <td>САЩ, Великобритания</td>
-                <td>2010</td>
-                <td>Екшън, Приключенски, Фантастика</td>
-                <td>6</td>
-            </tr>
-            
-            <tr>
-                <td class="list-img"><img src="images/2.jpg" > <p> Интерстелар / Interstellar (2014) </p></td>
-                <td>Кристофър Нолан  </td>
-                <td>Леонардо Ди Каприо, Елън Пейдж, Марион Котияр</td>
-                <td>САЩ, Великобритания</td>
-                <td>2010</td>
-                <td>Екшън, Приключенски, Фантастика</td>
-                <td>6</td>
-            </tr>
-            
-            <tr>
-                <td class="list-img"><img src="images/3.jpg" > <p> Американски прелести / American beauty (2008) </p></td>
-                <td>Кристофър Нолан  </td>
-                <td>Леонардо Ди Каприо, Елън Пейдж, Марион Котияр</td>
-                <td>САЩ, Великобритания</td>
-                <td>2010</td>
-                <td>Екшън, Приключенски, Фантастика</td>
-                <td>6</td>
-            </tr>
-                       
+               
             
         </tbody>
     </table>

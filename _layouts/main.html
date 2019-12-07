@@ -12,6 +12,12 @@
             console.log('page is fully loaded');
         });
     </script>
+    <script>
+        $('li').on('click', function(){
+        $('li').removeClass('active');
+        $(this).toggleClass('active');
+        })
+    </script>
 </head>
 <body>
     <div class="container">
@@ -43,9 +49,9 @@
             <!-- <div class="santa"><img src="images/santa.jpg" alt=""></div> -->
             <nav class="site-nav">
                 <ul>
-                    <li class="active"><a href="{{ site.baseurl }}/index">начало</a></li>
-                    <li><a href="{{ site.baseurl }}/list">списък филми (а-я)</a></li>
-                    <li><a href="{{ site.baseurl }}/registration">регистрирай филм</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/index.html">начало</a></li>
+                    <li><a href="{{ site.baseurl }}/list.html">списък филми (а-я)</a></li>
+                    <li><a href="{{ site.baseurl }}/registration.html">регистрирай филм</a></li>
                     <!-- <li><a href="{{ site.baseurl }}">0 - 9</a></li> -->
 
                     <!-- <li><a href="{{ site.baseurl }}about">Ревюта</a></li>
