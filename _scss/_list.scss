@@ -1,17 +1,18 @@
 
 .nav-alphabet ul { 
    display: flex;
-   padding-left: 6rem;
-   padding-bottom: 2em;
+   padding-left: 5.5rem;
+   padding-bottom: 3em;
 
    li {
     display: block;
+    transition: all 0.1s ease-in-out; 
 
         a {
             text-decoration: none;
-            color: black;
+            color: $color-black;
             padding: 1rem 3rem;
-            border: 1px solid  #717171;
+            border: 1px solid $color-black;
             border-radius: 0.3em;
             text-transform: uppercase;
             font-family: 'Kosugi Maru', sans-serif;
@@ -21,11 +22,24 @@
     }
 
     .active a {
-        background: $color-orange;
+        background: $color-black;
         color: white;
-        border: 1px solid $color-orange;
+        border: 1px solid $color-black;
         /* box-shadow: 0 0 1em 0 rgba(248, 148, 6, 1); */
     }
+
+    li:hover {
+        transform: scale(1.1);  
+    }
+
+    li a:hover {
+        background-color: $color-black;
+        // transition: background 0.1s ease-in-out;
+        color: white;
+        font-weight: bold;
+    }
+
+
 }
 
 .movies-list table, .g-movies {
@@ -33,18 +47,19 @@
     padding-right: 6rem;
     margin-bottom: 2rem;
     border-spacing: 0;
+    font-size: $list-font-size;
 }
 
 .movies-list table tr, table th, table td {
     border: none;
     border-bottom: 1px solid #e8e8e8;
-    font-size: 1em;
+    // font-size: 1em;
 }
 
 .movies-list table th {
     background:  $color-orange;
     color: $color-black;
-    font-size: 1em;
+    // font-size: 1em;
     
 }
 
@@ -86,7 +101,7 @@ tr:nth-child(odd){
 .list-img {
 
     img {
-        height: 120px;
+        height: 60px;
         border-radius: 0.2em;
         border: 1px solid $color-black;
         padding: 2px;

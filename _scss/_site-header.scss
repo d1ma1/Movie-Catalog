@@ -76,9 +76,12 @@
     }
 }
 
-.active a {
-    background: $color-black;
-}
+// .active a {
+//     background: black;
+//     border-radius: 0.3em;
+//     border-top: 2.3px solid black;
+//     border-bottom: 2.3px solid  black;
+// }
 
 .site-nav {
 
@@ -95,6 +98,8 @@
 
         li {
             display: block;
+            transition: all 0.3s ease-in-out; 
+            
         }
 
         li a {
@@ -107,16 +112,27 @@
         }
 
         li a:hover {
-            background-color: $color-black;
-            height: 50px;
-            //transition: background 0.3s ease-in;
+            color: black;
+        }
+
+        li:hover {
+            // background-color: $color-black;
+            // height: 50px;
+            // transition: background 0.3s ease-in;
             // border-top: 2.3px solid  $color-black;
             // border-bottom: 2.3px solid  $color-black;
+            
+            transform: scale(1.3);  
+            
         }
 
         li:nth-child(1) a {
             border-left: 1px dotted white;
+           
         }
     }
 }
+
+
+
 
