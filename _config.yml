@@ -52,8 +52,11 @@ exclude:
   - vendor/ruby/
 
 collections:
-  movies:
+  topmovies:
     output: true
     sort_by: index
+  allmovies:
+    output: true
+    sort_by: letter
 
 collections_dir: collections

@@ -7,9 +7,10 @@ layout: main
 
     <div class="movie">
 
-    {% for movies in site.movies %}
+    {% for movies in site.topmovies %}
     <div class="movie{{ movies.image }} "> 
         <img src="images/{{ movies.image }}.jpg" alt=""> 
+        <!-- <a href="{{ movies.url }}/movies.html">natisni</a> -->
         <p> {{ movies.name }} ({{ movies.year }})</p>
         <div class="info">
             {{ movies.stars }}

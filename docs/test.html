@@ -1,3 +1,5 @@
+
+
 ---
 layout: main
 ---
@@ -30,7 +32,7 @@ layout: main
             <div>Рейтинг</div>
         </div>
 
-        {% assign movie_list = site.allmovies %}
+        {% assign movie_list = site.allmovies | where: "letter", "g" %}
 
         {% for movies in movie_list %}
 

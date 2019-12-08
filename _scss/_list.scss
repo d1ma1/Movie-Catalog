@@ -1,14 +1,17 @@
 .list {
     margin-left: 6rem;
     margin-right: 6rem;
+    border-bottom: 2px solid $color-lightgray;
+    margin-bottom: 2rem;
+   
 }
-
 
 .list-grid-header {
 
     background:  $color-orange;
-    color: $color-black;
+    color: white;
     font-weight: bold;
+    
 }
 
 .list-grid, .list-grid-header {
@@ -18,9 +21,15 @@
     padding: 1rem;
     font-size: $list-font-size;
     text-align: left;
+   
 }
 
-.list-grid:nth-child(even){
+.list-grid {
+    border-left: 2px solid $color-lightgray;
+    border-right: 2px solid $color-lightgray;
+}
+
+.list-grid:nth-child(odd){
     background: $color-lightgray;
 }
 
@@ -36,89 +45,90 @@
 
         a {
             text-decoration: none;
-            color: $color-black;
+            color: white;
             padding: 1rem 3rem;
-            border: 1px solid $color-black;
-            border-radius: 0.3em;
+            // border: 1px solid $color-black;
+            border-radius: 3em;
             text-transform: uppercase;
             font-family: 'Kosugi Maru', sans-serif;
             margin: 0.5em;
-            
+            background: gray;
+            // opacity: 0.4;
         }
     }
 
-    .active a {
-        background: $color-black;
-        color: white;
-        border: 1px solid $color-black;
-        /* box-shadow: 0 0 1em 0 rgba(248, 148, 6, 1); */
-    }
+    // .active a {
+    //     background: $color-black;
+    //     color: white;
+    //     border: 1px solid $color-black;
+    //     /* box-shadow: 0 0 1em 0 rgba(248, 148, 6, 1); */
+    // }
 
     li:hover {
         transform: scale(1.1);  
     }
 
     li a:hover {
-        background-color: $color-black;
+        // background-color: $color-black;
         // transition: background 0.1s ease-in-out;
-        color: white;
+        // color: white;
         font-weight: bold;
     }
 }
 
-.movies-list table, .g-movies {
-    padding-left: 6rem;
-    padding-right: 6rem;
-    margin-bottom: 2rem;
-    border-spacing: 0;
-    font-size: $list-font-size;
-}
+// .movies-list table, .g-movies {
+//     padding-left: 6rem;
+//     padding-right: 6rem;
+//     margin-bottom: 2rem;
+//     border-spacing: 0;
+//     font-size: $list-font-size;
+// }
 
-.movies-list table tr, table th, table td {
-    border: none;
-    border-bottom: 1px solid #e8e8e8;
-    // font-size: 1em;
-}
+// .movies-list table tr, table th, table td {
+//     border: none;
+//     border-bottom: 1px solid #e8e8e8;
+//     // font-size: 1em;
+// }
 
-.movies-list table th {
-    background:  $color-orange;
-    color: $color-black;
-    // font-size: 1em;
+// .movies-list table th {
+//     background:  $color-orange;
+//     color: $color-black;
+//     // font-size: 1em;
     
-}
+// }
 
-.movies-list table th, table td {
-    padding: 10px 12px;
-    text-align: left;
-}
+// .movies-list table th, table td {
+//     padding: 10px 12px;
+//     text-align: left;
+// }
 
-/* .movies-list thead, .movies-list tbody {
-    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
-} */
+// /* .movies-list thead, .movies-list tbody {
+//     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+// } */
 
-/** tbody*/
+// /** tbody*/
 
-html, body {
-    /* font-size: 100%; */
-    font-family: $font-custom, sans-serif;
-}
+// html, body {
+//     /* font-size: 100%; */
+//     font-family: $font-custom, sans-serif;
+// }
 
-td.list-img a span {
-    color: $color-black;
-    font-size: 1em;
-    font-weight: 600;
-    display: block;
-    margin: 0.5em 0 0 0;
-    word-wrap: break-word;
-}
+// td.list-img a span {
+//     color: $color-black;
+//     font-size: 1em;
+//     font-weight: 600;
+//     display: block;
+//     margin: 0.5em 0 0 0;
+//     word-wrap: break-word;
+// }
 
-td.list-img a {
-    text-decoration: none;
-}
+// td.list-img a {
+//     text-decoration: none;
+// }
 
-tr:nth-child(odd){
-    background: #EFEFEF;
-}
+// tr:nth-child(odd){
+//     background: #EFEFEF;
+// }
 
 
 

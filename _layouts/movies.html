@@ -1,7 +1,17 @@
----
-layout: main
----
-<h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2>
 
-{{ content }}
+
+{% assign movie_list = site.movies %}
+
+{% for movies in movie_list %}
+
+    <div class="list-grid">
+        <div class="list-img"><img src="images/{{ movies.image }}.jpg" > <p> {{ movies.name }} </p></div>
+        <div>{{ movies.director }}  </div>
+        <div>{{ movies.actors }}</div>
+        <div>{{ movies.country }}</div>
+        <div>{{ movies.year }}</div>
+        <div>{{ movies.genre }}</div>
+        <div>{{ movies.stars }}</div>
+        <div>{{ movies.description }}</div>
+    </div>
+{% endfor %}   
