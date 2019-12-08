@@ -1,7 +1,9 @@
+---
+layout: list_layout
+---
 
-
-{% assign movie_list = site.movies %}
-
+{% assign movie_list = site.allmovies  | where: "letter", "0-9"  %}
+  
 {% for movies in movie_list %}
 
     <div class="list-grid">
@@ -12,6 +14,6 @@
         <div>{{ movies.year }}</div>
         <div>{{ movies.genre }}</div>
         <div>{{ movies.stars }}</div>
-        <div>{{ movies.description }}</div>
     </div>
+
 {% endfor %}   

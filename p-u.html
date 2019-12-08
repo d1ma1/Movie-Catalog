@@ -1,0 +1,19 @@
+---
+layout: list_layout
+---
+
+{% assign movie_list = site.allmovies  | where: "letter", "p-u"  %}
+  
+{% for movies in movie_list %}
+
+    <div class="list-grid">
+        <div class="list-img"><img src="images/{{ movies.image }}.jpg" > <p> {{ movies.name }} </p></div>
+        <div>{{ movies.director }}  </div>
+        <div>{{ movies.actors }}</div>
+        <div>{{ movies.country }}</div>
+        <div>{{ movies.year }}</div>
+        <div>{{ movies.genre }}</div>
+        <div>{{ movies.stars }}</div>
+    </div>
+
+{% endfor %}   

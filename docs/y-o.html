@@ -51,20 +51,54 @@
             <!-- <div class="santa"><img src="images/santa.jpg" alt=""></div> -->
             <nav class="site-nav">
                 <ul>
-                    <li><a href="{{ site.baseurl }}/index.html">начало</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/all_movies.html">списък филми (а-я)</a></li>
-                    <li><a href="{{ site.baseurl }}/registration.html">регистрирай филм</a></li>
-                    <!-- <li><a href="{{ site.baseurl }}">0 - 9</a></li> -->
+                    <li><a href="/index.html">начало</a></li>
+                    <li class="active"><a href="/all_movies.html">списък филми (а-я)</a></li>
+                    <li><a href="/registration.html">регистрирай филм</a></li>
+                    <!-- <li><a href="">0 - 9</a></li> -->
 
-                    <!-- <li><a href="{{ site.baseurl }}about">Ревюта</a></li>
-                    <li><a href="{{ site.baseurl }}about">Създай филм</a></li>
-                    <li><a href="{{ site.baseurl }}about">Напиши ревю</a></li> -->
+                    <!-- <li><a href="about">Ревюта</a></li>
+                    <li><a href="about">Създай филм</a></li>
+                    <li><a href="about">Напиши ревю</a></li> -->
                 </ul>
             </nav>
 
         </header>
 
-        {{ content }}
+        <main class="site-movies">
+
+    <h4 class="latest-text">Каталог</h4>
+
+    <nav class="nav-alphabet">
+
+        <ul>
+            <li class="active"><a href="all_movies.html">Всички филми</a></li>
+            <li><a href="0-9.html">0 - 9</a></li>
+            <li><a href="a-d.html">А - Д</a></li>
+            <li><a href="e-i.html">Е - И</a></li>
+            <li><a href="y-o.html">Й - О</a></li>
+            <li><a href="p-u.html"> П - У</a></li>
+            <li><a href="f-sh.html">Ф - Ш</a></li>
+            <li><a href="sht-ya.html">Щ - Я</a></li>           
+        </ul>
+    </nav>
+
+    <section class="list">
+        <div class="list-grid-header">
+            <div>Заглавие</div>
+            <div>Режисьор</div>
+            <div>Актьори</div>
+            <div>Държава</div>
+            <div>Година</div>
+            <div>Жанр</div>
+            <div>Рейтинг</div>
+        </div>
+
+        
+  
+   
+
+    </section>
+</main>
 
         <footer class="site-footer">
             <p>Copyright © 2019</p>
