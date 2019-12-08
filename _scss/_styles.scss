@@ -2,8 +2,8 @@
 .movie {
     padding: 3rem 0.5rem;
     margin-left: 6rem;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 22em);
 
     p {
         font-weight: bold;
@@ -21,7 +21,7 @@
         width: auto;
         border-radius: 0.3em;
         border: 1px solid black;
-        background-color: var(--lightgray);
+        background-color: $color-lightgray;
         padding: 0.5em;
     }
     

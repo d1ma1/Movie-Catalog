@@ -8,9 +8,9 @@ layout: main
     <div class="movie">
 
     {% for movies in site.movies %}
-    <div class="movie{{ movies.image }}"> 
+    <div class="movie{{ movies.image }} "> 
         <img src="images/{{ movies.image }}.jpg" alt=""> 
-        <p> {{ movies.name }}</p>
+        <p> {{ movies.name }} ({{ movies.year }})</p>
         <div class="info">
             {{ movies.stars }}
             <div class="stars">             

@@ -19,37 +19,30 @@ layout: main
         </ul>
     </nav>
 
-    <section class="movies-list">
-    <table>
-        <thead>
-            <tr>
-                <th>Заглавие</th>
-                <th>Режисьор</th>
-                <th>Актьори</th>
-                <th>Държава</th>
-                <th>Година</th>
-                <th>Жанр</th>
-                <th>Рейтинг</th>
-            </tr>
-        </thead>
-        <tbody>
+    <section class="list">
+        <div class="list-grid-header">
+            <div>Заглавие</div>
+            <div>Режисьор</div>
+            <div>Актьори</div>
+            <div>Държава</div>
+            <div>Година</div>
+            <div>Жанр</div>
+            <div>Рейтинг</div>
+        </div>
 
-                {% include a.html %}
-                {% include b.html %}
-            
-            {% for movies in movie_list %}
-            <tr>
-                <td class="list-img"><img src="images/{{ movies.image }}.jpg" > <p> {{ movies.name }} </p></td>
-                <td>{{ movies.director }}  </td>
-                <td>{{ movies.actors }}</td>
-                <td>{{ movies.country }}</td>
-                <td>{{ movies.year }}</td>
-                <td>{{ movies.genre }}</td>
-                <td>{{ movies.stars }}</td>
-            </tr>
-            {% endfor %}   
-            
-        </tbody>
-    </table>
+        {% assign movie_list = site.movies %}
+
+        {% for movies in movie_list %}
+
+            <div class="list-grid">
+                <div class="list-img"><img src="images/{{ movies.image }}.jpg" > <p> {{ movies.name }} </p></div>
+                <div>{{ movies.director }}  </div>
+                <div>{{ movies.actors }}</div>
+                <div>{{ movies.country }}</div>
+                <div>{{ movies.year }}</div>
+                <div>{{ movies.genre }}</div>
+                <div>{{ movies.stars }}</div>
+            </div>
+        {% endfor %}   
     </section>
 </main>

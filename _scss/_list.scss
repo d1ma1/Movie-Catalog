@@ -1,3 +1,29 @@
+.list {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+
+.list-grid-header {
+
+    background:  $color-orange;
+    color: $color-black;
+    font-weight: bold;
+}
+
+.list-grid, .list-grid-header {
+    display: grid;
+    grid-template-columns: repeat(7, 180px);
+
+    padding: 1rem;
+    font-size: $list-font-size;
+    text-align: left;
+}
+
+.list-grid:nth-child(even){
+    background: $color-lightgray;
+}
+
 
 .nav-alphabet ul { 
    display: flex;
@@ -38,8 +64,6 @@
         color: white;
         font-weight: bold;
     }
-
-
 }
 
 .movies-list table, .g-movies {
