@@ -1,0 +1,55 @@
+---
+layout: main
+---
+
+<section class="register">
+
+    <h4 class="latest-text">Регистрирай филм</h4>
+
+    <!-- <form action="">
+        <p>
+            <label for="">Your name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email">
+        </p>
+        <p class="input-file-wrapper">
+            <label for="upload">Upload your photo</label>
+            <input type="file" name="" id="upload">
+        </p>
+        <p>
+            <button>Save</button>
+        </p>
+    </form> -->
+
+    <form class="agile-info-wthree-box" action="/Movies/Create" method="post">
+
+        <input type="text" id="title" name="title" placeholder="Заглавие" style="text-align: center">
+
+        <input type="text" id="director" name="director" placeholder="Режисьор" style="text-align: center">
+
+        <input type="text" id="actors" name="actors" placeholder="Актьори" style="text-align: center">
+
+        <input type="text" placeholder="Държава" style="text-align: center">
+
+        <input type="text" id="releaseYear" name="releaseYear" placeholder="Година" style="text-align: center">
+
+        <input type="text" id="genre" name="genre" placeholder="Жанр" style="text-align: center">
+
+        <input type="text" placeholder="Рейтинг" style="text-align: center">
+
+
+        <div class="upload-btn-wrapper">
+            <button class="btn">Качи корица</button>
+            <input type="file" name="myfile" />
+        </div>
+
+        <div class="clearfix"> <br></div>
+
+        <button onclick="location.href='/';return false;" class="btn-cancel">Отмени</button>
+        <button type="submit" class="btn-create">Създай</button>
+
+</form>
+</section>

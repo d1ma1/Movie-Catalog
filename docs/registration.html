@@ -64,77 +64,57 @@
 
         </header>
 
-        <main class="site-movies">
+        <section class="register">
 
-    <h4 class="latest-text">Каталог</h4>
+    <h4 class="latest-text">Регистрирай филм</h4>
 
-    <nav class="nav-alphabet">
+    <!-- <form action="">
+        <p>
+            <label for="">Your name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email">
+        </p>
+        <p class="input-file-wrapper">
+            <label for="upload">Upload your photo</label>
+            <input type="file" name="" id="upload">
+        </p>
+        <p>
+            <button>Save</button>
+        </p>
+    </form> -->
 
-        <ul>
-            <li class="active"><a href="all_movies.html">Всички филми</a></li>
-            <li><a href="0-9.html">0 - 9</a></li>
-            <li><a href="a-d.html">А - Д</a></li>
-            <li><a href="e-i.html">Е - И</a></li>
-            <li><a href="y-o.html">Й - О</a></li>
-            <li><a href="p-u.html"> П - У</a></li>
-            <li><a href="f-sh.html">Ф - Ш</a></li>
-            <li><a href="sht-ya.html">Щ - Я</a></li>           
-        </ul>
-    </nav>
+    <form class="agile-info-wthree-box" action="/Movies/Create" method="post">
 
-    <section class="list">
-        <div class="list-grid-header">
-            <div>Заглавие</div>
-            <div>Режисьор</div>
-            <div>Актьори</div>
-            <div>Държава</div>
-            <div>Година</div>
-            <div>Жанр</div>
-            <div>Рейтинг</div>
+        <input type="text" id="title" name="title" placeholder="Заглавие" style="text-align: center">
+
+        <input type="text" id="director" name="director" placeholder="Режисьор" style="text-align: center">
+
+        <input type="text" id="actors" name="actors" placeholder="Актьори" style="text-align: center">
+
+        <input type="text" placeholder="Държава" style="text-align: center">
+
+        <input type="text" id="releaseYear" name="releaseYear" placeholder="Година" style="text-align: center">
+
+        <input type="text" id="genre" name="genre" placeholder="Жанр" style="text-align: center">
+
+        <input type="text" placeholder="Рейтинг" style="text-align: center">
+
+
+        <div class="upload-btn-wrapper">
+            <button class="btn">Качи корица</button>
+            <input type="file" name="myfile" />
         </div>
 
-        
-  
+        <div class="clearfix"> <br></div>
 
+        <button onclick="location.href='/';return false;" class="btn-cancel">Отмени</button>
+        <button type="submit" class="btn-create">Създай</button>
 
-    <div class="list-grid">
-        <div class="list-img"><img src="images/7.jpg" > <p> Жега / Heat </p></div>
-        <div>Майкъл Ман  </div>
-        <div>Ал Пачино, Робърт Де Ниро, Вал Килмър</div>
-        <div>САЩ</div>
-        <div>1995</div>
-        <div>Криминален, Драма, Трилър</div>
-        <div>8.2</div>
-    </div>
-
-
-
-    <div class="list-grid">
-        <div class="list-img"><img src="images/2.jpg" > <p> Интерстелар / Interstellar </p></div>
-        <div>Кристофър Нолан  </div>
-        <div>Матю Макконъхи, Ан Хатауей, Мат Деймън</div>
-        <div>САЩ, Великобритания, Канада</div>
-        <div>2014</div>
-        <div>Приключенски, Драма, Фантастика</div>
-        <div>6</div>
-    </div>
-
-
-
-    <div class="list-grid">
-        <div class="list-img"><img src="images/4.jpg" > <p> Жокера / Jocker </p></div>
-        <div>Тод Филипс  </div>
-        <div>Хоакин Финикс, Зази Бийц, Робърт Де Ниро</div>
-        <div>САЩ</div>
-        <div>2019</div>
-        <div>Екшън, Драма, Трилър</div>
-        <div>8.8</div>
-    </div>
-
-   
-
-    </section>
-</main>
+</form>
+</section>
 
         <footer class="site-footer">
             
