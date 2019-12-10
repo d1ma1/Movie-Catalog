@@ -1,6 +1,26 @@
-.site-footer .bottom {
-  background-color: black;
+.site-footer {
+    background-color: $color-black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+
+    .left {
+      padding-left: 6rem;
+    }
+
+    .right {
+      padding-right: 6rem;
+
+      i {
+        padding: 0.5rem;
+        font-size: 1.5rem;
+      }
+    }
+
 }
+
 
 
 // .bottom {
