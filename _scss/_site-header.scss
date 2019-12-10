@@ -1,8 +1,9 @@
+
+
 .site-header {
     display: flex;
     justify-content: space-around;
-    border-top: 0.1rem solid $color-orange;
-
+   
     .logo {
         display: flex;
         flex-direction: row;
@@ -98,8 +99,7 @@
 
         li {
             display: block;
-            transition: all 0.3s ease-in-out; 
-            
+            transition: transform 0.3s ease-in-out;    
         }
 
         li a {

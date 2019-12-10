@@ -9,11 +9,10 @@ body, button, input, option, select, form, table {
     font: inherit;
 }
 
-body {
-    background: url('images/santa.jpg');
-}
-
-
 li {
     list-style-position: inside;
+}
+
+body {
+    border-top: 0.1rem solid $color-orange;
 }

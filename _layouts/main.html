@@ -14,10 +14,9 @@
         });
     </script>
     <script>
-        // $('li').on('click', function(){
-        // $('li').removeClass('active');
-        // $(this).toggleClass('active');
-        // })
+       window.addEventListener('load', (event) => {
+           document.querySelector('body').classList.add('loaded');
+       })
     </script>
 </head>
 <body>
@@ -25,13 +24,18 @@
     <div class="container">
         <header>
 
-            <div class="site-header">
+            <div class="snows">
+                <div class="box snow1"><img src="images/snow.gif" alt=""></div>
+                <div class="box snow2"><img src="images/snow.gif" alt=""></div>
+                <div class="box snow3"><img src="images/snow.gif" alt=""></div>   
+            </div>
 
+            <div class="site-header">
                 <section class="logo">
                     <div><p>КАТАЛОГ</p> <p>ФИЛМИ</p></div>
                     <div><img src="logo/logo1.jpg" alt=""></div>
                 </section>
-
+ 
                 <section class="search">
                     <form>
                         <div>
@@ -46,9 +50,8 @@
                         <li><a href="#">Вход</a></li>
                     </ul>
                 </section>
-            </div>
+            </div>            
 
-            <!-- <div class="santa"><img src="images/santa.jpg" alt=""></div> -->
             <nav class="site-nav">
                 <ul>
                     <li><a href="{{ site.baseurl }}/index.html">начало</a></li>
