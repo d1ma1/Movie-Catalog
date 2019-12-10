@@ -1,0 +1,83 @@
+.agile-info-wthree-box {
+  margin-bottom: 5em;
+  padding-left: 6em;
+}
+
+.register h4.latest-text, .site-movies h4.latest-text {
+  border-left: 0.2rem solid $color-orange;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: $color-black;
+  margin: 2.5rem 0 0 6rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.register input[type="text"], .btn {
+  outline: none;
+  border: 1px solid #D4D3D3;
+  background: #EFEFEF;
+  padding: 10px 10px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 2em;
+  margin: 1rem;
+}
+
+.btn-cancel {
+  background: $color-black;
+}
+
+.btn-create {
+  background: $color-orange;
+}
+
+// .upload-btn-wrapper {
+//   position: relative;
+//   overflow: hidden;
+//   display: inline-block;
+
+// }
+
+// .btn {
+//   border:1px solid gray;
+//   color: gray;
+//   background-color: white;
+//   padding: 8px 20px;
+//   border-radius: 8px;
+//   font-size: 20px;
+//   font-weight: bold;
+// }
+
+.upload-btn-wrapper input[type=file] {
+  // font-size: 100px;
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  // opacity: 0;
+}
+
+// form {
+//     display: grid;
+//     grid-template-columns: 2fr 1fr;
+//     grid-gap: 20px;
+//   }
+
+// //   form p {
+// //     grid-column: 1 / 2;
+// //   }
+
+// //   .input-file-wrapper {
+// //     grid-column: 2 / 3;
+// //     grid-row: 1 / 2;
+// //   }
+
+
+
+// .register {
+//   margin: 2.5rem 0 0 6rem;
+// }
+
+// input {
+
+// }
