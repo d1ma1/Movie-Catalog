@@ -83,21 +83,25 @@
     }
 
     .log-in {
-        margin: 4em;
+        margin: 3em;
     
-        ul li {
-            display: block;
+        .btn-log-in {
+            background: $color-orange;
+          }
+
+        // ul li {
+        //     display: block;
     
-            a {
-                color:  $color-white;
-                text-transform: uppercase;
-                text-decoration: none;
-                background: $color-orange;
-                text-align: center;
-                padding: 10px 30px;
-                font-weight: bold;
-            } 
-        }
+        //     a {
+        //         color:  $color-white;
+        //         text-transform: uppercase;
+        //         text-decoration: none;
+        //         background: $color-orange;
+        //         text-align: center;
+        //         padding: 10px 30px;
+        //         font-weight: bold;
+        //     } 
+        // }
     }
 }
 

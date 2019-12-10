@@ -13,3 +13,13 @@ li {
     list-style-position: inside;
 }
 
+.btn-log-in, .btn-subscribe, 
+.btn-cancel, .btn-create {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 50px;
+  }
+

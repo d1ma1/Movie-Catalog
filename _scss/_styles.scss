@@ -60,3 +60,44 @@
         margin-bottom: 2.5rem;
     }
 }
+
+
+.subscribe {
+
+    padding: 1rem 6rem;
+
+    p {
+        font-size: 1.5rem;
+        color: $color-black;
+        text-transform: uppercase;
+        font-style: normal;
+        margin-bottom: 0.5rem;
+        margin-left: 0.5rem;
+    }
+  
+    form {
+        width: 50%;
+        border: 1px solid #fff;
+        padding: 1rem;
+        background: $color-lightgray;
+        // border: 1px solid $color-orange;
+        // border-radius: 0.3rem;
+    }
+  
+    input[type="email"] {
+        // outline: none;
+        padding: 1rem;
+        font-size: 14px;
+        // color: $color-lightgray;
+        width: 74%;
+        // background: #fff;
+        border: none;
+    }
+
+      .btn-subscribe {
+        background: $color-black;
+        width: 25%;
+        padding: 1rem;
+      }
+}
+  

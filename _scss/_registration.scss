@@ -13,7 +13,7 @@
   margin-bottom: 2.5rem;
 }
 
-.agile-info-wthree-box input[type="text"], .btn {
+.register input[type="text"], .btn {
   outline: none;
   border: 1px solid #D4D3D3;
   background: #EFEFEF;
@@ -25,32 +25,19 @@
 }
 
 .btn-cancel {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #212121;
-  text-align: center;
-  padding: 10px 50px;
+  background: $color-black;
 }
 
 .btn-create {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #FF8D1B;
-  text-align: center;
-  padding: 10px 50px;
-  font-weight: bold;
+  background: $color-orange;
 }
 
-.upload-btn-wrapper {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
+// .upload-btn-wrapper {
+//   position: relative;
+//   overflow: hidden;
+//   display: inline-block;
 
-}
+// }
 
 // .btn {
 //   border:1px solid gray;
