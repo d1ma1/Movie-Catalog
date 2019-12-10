@@ -22,8 +22,8 @@ title: BG Filmi
 email: dima.dimova@mail.bg
 description: This is Db for Bulgarian movies
 destination: docs
-baseurl: "/Movie-Catalog" # the subpath of your site, e.g. /blog
-url: "/Movie-Catalog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Movie-Catalog/" # the subpath of your site, e.g. /blog
+url: "https://d1ma1.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none
 github_username:  d1ma1
 
