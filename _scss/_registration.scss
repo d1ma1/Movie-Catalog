@@ -25,27 +25,24 @@
   text-align: center;
 }
 
-.register .one-row input[type="text"] {
-  width: 25%;
-  // margin-right: rem;
-  // margin-left: 3rem;
+.register-movie input:nth-child(6), .register-movie input:nth-child(7){
+  width: 39%;
 }
 
 .btn-cancel {
   background: blueviolet;
-
-  // margin-left: 6em;
-  // margin-bottom: 5em;
-  // margin-top: 3em;
 }
 
 .btn-create {
   background: $color-orange;
-  // margin-left: 1em;
-  // margin-top: 3em;
+  margin-right: 1rem;
 }
 
-.inputfile {
+.one-row {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.inputfile, .input-mp4 {
   width: 0.1px;
   height: 0.1px;
   opacity: 0;
@@ -55,28 +52,23 @@
 }
 
   .inputfile + label {
+    color: $color-orange;
+    text-align: center;
+    margin-right: 1rem;
+  }
+
+  .input-mp4 + label {
     color: blueviolet;
+    text-align: center;
+    margin-right: 15rem;
+    
+  }
+
+  .one-row input + label{
     font-weight:bold;
     background-color: $color-lightgray;
     border: 1px solid gray;
-    // padding: 0.8rem;
-    // width: 15%;
-    // border-radius: 2rem;
-    // margin: 0.8rem;
-    text-align: center;
-    // align-items: flex-end;
     font-size: 16px;
     padding: 10px 40px;
-    margin-right: 8rem;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0 , 0.3);
   }
-
-  .one-row {
-    // display: flex;
-    // padding-right: 3rem;
-  }
-
-  // .fa-upload {
-  //     padding: 0.5rem;
-  //     font-size: 20px;
-  // }
