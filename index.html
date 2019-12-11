@@ -13,14 +13,12 @@ layout: main
         <!-- <a href="{{ movies.url }}/movies.html">natisni</a> -->
         <p> {{ movies.name }} ({{ movies.year }})</p>
         <div class="info">
-            {{ movies.stars }}
-            <div class="stars">             
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+            <div class="stars">   
+                        
+                {% for i in (1..10) %}
+                    <i class="fas fa-star"></i>
+                {% endfor %}
+                <span>{{ movies.stars }}  </span>
             </div>
         </div>
     </div> 

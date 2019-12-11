@@ -65,41 +65,57 @@
 
         </header>
 
-        <main class="site-movies">
+        <section class="register">
 
-    <h4 class="latest-text">Каталог</h4>
+    <h4 class="latest-text">Регистрирай филм</h4>
 
-    <nav class="nav-alphabet">
+    <!-- <form action="">
+        <p>
+            <label for="">Your name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email">
+        </p>
+        <p class="input-file-wrapper">
+            <label for="upload">Upload your photo</label>
+            <input type="file" name="" id="upload">
+        </p>
+        <p>
+            <button>Save</button>
+        </p>
+    </form> -->
 
-        <ul>
-            <li class="active"><a href="all_movies.html">Всички филми</a></li>
-            <li><a href="0-9.html">0 - 9</a></li>
-            <li><a href="a-d.html">А - Д</a></li>
-            <li><a href="e-i.html">Е - И</a></li>
-            <li><a href="y-o.html">Й - О</a></li>
-            <li><a href="p-u.html"> П - У</a></li>
-            <li><a href="f-sh.html">Ф - Ш</a></li>
-            <li><a href="sht-ya.html">Щ - Я</a></li>           
-        </ul>
-    </nav>
+    <form class="agile-info-wthree-box" action="/Movies/Create" method="post">
 
-    <section class="list">
-        <div class="list-grid-header">
-            <div>Заглавие</div>
-            <div>Режисьор</div>
-            <div>Актьори</div>
-            <div>Държава</div>
-            <div>Година</div>
-            <div>Жанр</div>
-            <div>Рейтинг</div>
+        <input type="text" id="title" name="title" placeholder="Заглавие" style="text-align: center">
+
+        <input type="text" id="director" name="director" placeholder="Режисьор" style="text-align: center">
+
+        <input type="text" id="actors" name="actors" placeholder="Актьори" style="text-align: center">
+
+        <input type="text" placeholder="Държава" style="text-align: center">
+
+        <input type="text" id="releaseYear" name="releaseYear" placeholder="Година" style="text-align: center">
+
+        <input type="text" id="genre" name="genre" placeholder="Жанр" style="text-align: center">
+
+        <input type="text" placeholder="Рейтинг" style="text-align: center">
+
+
+        <div class="upload-btn-wrapper">
+            <button class="btn">Качи корица</button>
+            <input type="file" name="myfile" />
         </div>
 
-        
-  
-   
+        <div class="clearfix"> <br></div>
 
-    </section>
-</main>
+        <button onclick="location.href='/'" class="btn-cancel">Отмени</button>
+        <button type="submit" class="btn-create">Създай</button>
+
+</form>
+</section>
 
         <div class="site-footer"> 
             <div class="info">

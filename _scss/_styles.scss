@@ -12,8 +12,13 @@
         padding-bottom: 0.5rem;
     }
 
-    i{
-        color: $color-orange;
+    i {
+        color: orange;
+        
+    }
+
+    span .gray{
+        color: $color-lightgray;
     }
 
     img {
@@ -24,23 +29,24 @@
         background-color: $color-lightgray;
         padding: 0.5em;
     }
-    
-    .movie1, .movie2, .movie3, .movie4, .movie5, .movie6 {
-        margin-right: 1em;
-        /* padding: 0.5em; */
-    }
 
-    .movie3 .stars i:nth-child(6),
-    .movie4 .stars i:nth-child(6),
-    .movie5 .stars i:nth-child(6),
-    .movie6 .stars i:nth-child(6) {
-        color: gray;
+
+    .stars i:nth-child(10), .movie3 .stars i:nth-child(9) {
+        color: $color-lightgray;
     }
 
     info time {
         float: left;
         padding-right: 3rem;
-    
+    }
+
+    i:hover {
+        color: gray;
+        transition: color 0.3s ease-out;
+    }
+
+    .stars span{
+        padding-left: 1rem;
     }
 }
 
@@ -61,7 +67,6 @@
     }
 }
 
-
 .subscribe {
 
     padding: 1rem 6rem;
@@ -74,7 +79,7 @@
         margin-bottom: 0.5rem;
         margin-left: 0.5rem;
     }
-  
+
     form {
         width: 50%;
         border: 1px solid #fff;
@@ -83,7 +88,7 @@
         // border: 1px solid $color-orange;
         // border-radius: 0.3rem;
     }
-  
+
     input[type="email"] {
         // outline: none;
         padding: 1rem;
@@ -100,4 +105,3 @@
         padding: 1rem;
       }
 }
-  
