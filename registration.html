@@ -8,50 +8,32 @@ title: registration
 
     <h4 class="latest-text">Регистрирай филм</h4>
 
-    <!-- <form action="">
-        <p>
-            <label for="">Your name</label>
-            <input type="text">
-        </p>
-        <p>
-            <label for="">Email</label>
-            <input type="email">
-        </p>
-        <p class="input-file-wrapper">
-            <label for="upload">Upload your photo</label>
-            <input type="file" name="" id="upload">
-        </p>
-        <p>
-            <button>Save</button>
-        </p>
-    </form> -->
+    <form class="register-movie">
 
-    <form class="agile-info-wthree-box" action="/Movies/Create" method="post">
+        <input type="text" placeholder="Заглавие">
 
-        <input type="text" id="title" name="title" placeholder="Заглавие" style="text-align: center">
+        <input type="text" placeholder="Режисьор" >
 
-        <input type="text" id="director" name="director" placeholder="Режисьор" style="text-align: center">
+        <input type="text" placeholder="Актьори" >
 
-        <input type="text" id="actors" name="actors" placeholder="Актьори" style="text-align: center">
+        <input type="text" placeholder="Държава">
 
-        <input type="text" placeholder="Държава" style="text-align: center">
+        <input type="text" placeholder="Жанр">
 
-        <input type="text" id="releaseYear" name="releaseYear" placeholder="Година" style="text-align: center">
+        <div class ="one-row">
+            <input type="text" placeholder="Година" >
 
-        <input type="text" id="genre" name="genre" placeholder="Жанр" style="text-align: center">
-
-        <input type="text" placeholder="Рейтинг" style="text-align: center">
-
-
-        <div class="upload-btn-wrapper">
-            <button class="btn">Качи корица</button>
-            <input type="file" name="myfile" />
+            <input type="file" name="file" id="file" class="inputfile" />
+            <label for="file"> <i class="fas fa-upload"></i> Качи корица</label>
+            
+            <button class="btn-create">Създай</button>
+            <button class="btn-cancel">Отмени</button>
+            
         </div>
 
-        <div class="clearfix"> <br></div>
-
-        <button onclick="location.href='/'" class="btn-cancel">Отмени</button>
-        <button type="submit" class="btn-create">Създай</button>
-
+        
 </form>
+
+
+
 </section>

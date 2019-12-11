@@ -1,5 +1,5 @@
-.agile-info-wthree-box {
-  margin-bottom: 5em;
+.register-movie {
+  margin-bottom: 2em;
   padding-left: 6em;
 }
 
@@ -16,68 +16,67 @@
 .register input[type="text"], .btn {
   outline: none;
   border: 1px solid #D4D3D3;
-  background: #EFEFEF;
-  padding: 10px 10px;
+  background: $color-lightgray;
+  padding: 0.8rem;
   width: 80%;
   font-size: 16px;
-  border-radius: 2em;
-  margin: 1rem;
+  border-radius: 2rem;
+  margin: 0.8rem;
+  text-align: center;
+}
+
+.register .one-row input[type="text"] {
+  width: 25%;
+  // margin-right: rem;
+  // margin-left: 3rem;
 }
 
 .btn-cancel {
-  background: $color-black;
+  background: blueviolet;
+
+  // margin-left: 6em;
+  // margin-bottom: 5em;
+  // margin-top: 3em;
 }
 
 .btn-create {
   background: $color-orange;
+  // margin-left: 1em;
+  // margin-top: 3em;
 }
 
-// .upload-btn-wrapper {
-//   position: relative;
-//   overflow: hidden;
-//   display: inline-block;
-
-// }
-
-// .btn {
-//   border:1px solid gray;
-//   color: gray;
-//   background-color: white;
-//   padding: 8px 20px;
-//   border-radius: 8px;
-//   font-size: 20px;
-//   font-weight: bold;
-// }
-
-.upload-btn-wrapper input[type=file] {
-  // font-size: 100px;
-  // position: absolute;
-  // left: 0;
-  // top: 0;
-  // opacity: 0;
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
 }
 
-// form {
-//     display: grid;
-//     grid-template-columns: 2fr 1fr;
-//     grid-gap: 20px;
-//   }
+  .inputfile + label {
+    color: blueviolet;
+    font-weight:bold;
+    background-color: $color-lightgray;
+    border: 1px solid gray;
+    // padding: 0.8rem;
+    // width: 15%;
+    // border-radius: 2rem;
+    // margin: 0.8rem;
+    text-align: center;
+    // align-items: flex-end;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-right: 8rem;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0 , 0.3);
+  }
 
-// //   form p {
-// //     grid-column: 1 / 2;
-// //   }
+  .one-row {
+    // display: flex;
+    // padding-right: 3rem;
+  }
 
-// //   .input-file-wrapper {
-// //     grid-column: 2 / 3;
-// //     grid-row: 1 / 2;
-// //   }
-
-
-
-// .register {
-//   margin: 2.5rem 0 0 6rem;
-// }
-
-// input {
-
-// }
+  // .fa-upload {
+  //     padding: 0.5rem;
+  //     font-size: 20px;
+  // }
