@@ -27,30 +27,6 @@
 .site-header {
     display: flex;
     justify-content: space-around;
-   
-    // .logo {
-    //     display: flex;
-    //     flex-direction: row;
-    //     align-items: center;
-
-    //     p:nth-child(1) {
-    //         font-size: 1.1rem;
-    //         color: $color-orange;
-    //         letter-spacing: 5px;
-    //         line-height: 0.5rem;
-    //         text-align: right;
-    //     }
-
-    //     p:nth-child(2){
-    //         font-size: 2rem;
-    //         color: $color-black;
-    //         margin-right: 0.5rem;
-    //     }
-
-    //     img {
-    //         height: 60px;
-    //     }
-    // }
 
     .search {
 
@@ -86,73 +62,12 @@
 
     .log-in {
         margin: 3em;
-    
+
         .btn-log-in {
             background: $color-orange;
           }
 
-        // ul li {
-        //     display: block;
     
-        //     a {
-        //         color:  $color-white;
-        //         text-transform: uppercase;
-        //         text-decoration: none;
-        //         background: $color-orange;
-        //         text-align: center;
-        //         padding: 10px 30px;
-        //         font-weight: bold;
-        //     } 
-        // }
-    }
-}
-
-// .active a {
-//     background: black;
-//     border-radius: 0.3em;
-//     border-top: 2.3px solid black;
-//     border-bottom: 2.3px solid  black;
-// }
-
-.site-nav {
-
-    background: $color-orange;
-    padding: 1rem 6rem;
-    height: 50px;
-    left: 0px;
-    right: 0px;
-    /* box-shadow: 0 0 1em 0 rgba(248, 148, 6, 1); */
-    
-    ul {
-
-        display: flex;
-
-        li {
-            display: block;
-            transition: transform 0.3s ease-in-out;    
-        }
-
-        li a {
-            text-decoration: none;
-            padding: 1rem 5rem;
-            color: white;
-            border-right: 1px dotted white;
-            text-transform: uppercase;
-            font-size: 15px;
-        }
-
-        li a:hover {
-            color: black;
-        }
-
-        li:hover {
-            transform: scale(1.1);  
-            
-        }
-
-        li:nth-child(1) a {
-            border-left: 1px dotted white; 
-        }
     }
 }
 

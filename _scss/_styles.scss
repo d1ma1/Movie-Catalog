@@ -60,8 +60,6 @@
 }
 
 .site-movies {
-    // margin-bottom: 2.5rem;
-
     h4.latest-text {
         margin-bottom: 2.5rem;
     }
@@ -85,17 +83,13 @@
         border: 1px solid #fff;
         padding: 1rem;
         background: $color-lightgray;
-        // border: 1px solid $color-orange;
-        // border-radius: 0.3rem;
     }
 
     input[type="email"] {
-        // outline: none;
+        outline: none;
         padding: 1rem;
         font-size: 14px;
-        // color: $color-lightgray;
         width: 74%;
-        // background: #fff;
         border: none;
     }
 

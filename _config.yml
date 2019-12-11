@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BG Filmi
+title: Movie catalog
 email: dima.dimova@mail.bg
-description: This is Db for Bulgarian movies
+description: Movie catalog
 destination: docs
 baseurl: "/Movie-Catalog/" # the subpath of your site, e.g. /blog
 url: "https://d1ma1.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -28,8 +28,8 @@ twitter_username: none
 github_username:  d1ma1
 
 # Build settings
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
