@@ -1,12 +1,14 @@
 .site-footer {
-    position: absolute;	
+    // position: absolute;	
     display: flex;	
     justify-content: space-between;	
     align-items: center;
-    width: 100%;	
-    height: 4rem;       	
+    // width: 100%;	
+    // height: 4rem;       	
     background-color: black;	
     color: white;
+    flex-shrink: 0; 
+    padding: 20px;
     
     .info {
       padding-left: 6rem;
