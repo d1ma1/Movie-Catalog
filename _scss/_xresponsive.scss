@@ -3,36 +3,36 @@
 @include bp(desktop_small){ //1100px
       // navigation
 
-      .site-nav ul li {
-        border-left: 1px dotted white;
+    //   .site-nav ul li {
+    //     border-left: 1px dotted white;
 
-    }
+    // }
 
-    .site-nav ul li {
-        border-right: 1px dotted white;
-        background: $color-orange;
-    }
+    // .site-nav ul li {
+    //     border-right: 1px dotted white;
+    //     background: $color-orange;
+    // }
 
-    .site-nav ul li a {
-        float: left;
-        display: block;
-        // color: $color-black;
-        text-align: center;
-        padding: 5px;
-        text-decoration: none;
-        // font-size: 14px;
-        border: none;
-    }
+    // .site-nav ul li a {
+    //     float: left;
+    //     display: block;
+    //     // color: $color-black;
+    //     text-align: center;
+    //     padding: 5px;
+    //     text-decoration: none;
+    //     // font-size: 14px;
+    //     border: none;
+    // }
 
 
-    .site-nav ul li:nth-child(1) a {
-        border-left: none;
-    }
+    // .site-nav ul li:nth-child(1) a {
+    //     border-left: none;
+    // }
 
-    .site-nav {
-        background: none;
-        margin-bottom: 4rem;
-    }
+    // .site-nav {
+    //     background: none;
+    //     margin-bottom: 4rem;
+    // }
     
 }
 @include bp(tablet_large) { //980px
@@ -67,10 +67,14 @@
         border-left: none;
     }
 
+    .site-nav ul li {
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
     .site-nav {
         background: none;
         margin-bottom: 4rem;
-
     }
     
     .site-main, .site-header, .site-footer  { //.site-nav ul, ,  .movie 
@@ -217,26 +221,29 @@
 
 @include bp(tablet_small) { //768
 
-    .bg {
-        display:none;
-    }
+    // .bg {
+    //     display:none;
+    // }
 
-    .site-header .search input[type=search] {	
-        width: 20rem;	
-    }
+    // .site-header .search input[type=search] {	
+    //     width: 20rem;	
+    // }
 
-    .site-nav {
-         margin-bottom: 0.5rem;
-         margin-left: 4rem;
-    }
+    // .site-nav {
+    //      margin-bottom: 0.5rem;
+    //      margin-left: 4rem;
+    // }
 
-    .site-header .log-in {
-        margin: 1em;
-    }
+    // .site-header .log-in {
+    //     margin: 1em;
+    // }
 
-    .site-main h4.latest-text {
-        margin: 0.5rem 0 0 0.5rem;
-    }
+    // .site-main h4.latest-text {
+    //     margin: 0.5rem 0 0 0.5rem;
+    // }
+    // .bg {
+    //     margin-top: 0rem;
+    // }
 
 }
 
@@ -260,53 +267,53 @@
 }
 
 
-@include bp(mobile_medium) { // 480
+// @include bp(mobile_medium) { // 480
 
-    .site-header .search input[type=search] {	
-        width: 15rem;	
-    }
+//     .site-header .search input[type=search] {	
+//         width: 15rem;	
+//     }
 
-    .site-nav { margin-bottom: 0.5rem;}
+//     .site-nav { margin-bottom: 0.5rem;}
 
-    .site-header .log-in {
-        margin: 1em;
-    }
+//     .site-header .log-in {
+//         margin: 1em;
+//     }
 
-    .site-nav ul li {
-        border-bottom: 1px dotted #fff;
-        width: auto;
-    }
+//     .site-nav ul li {
+//         border-bottom: 1px dotted #fff;
+//         width: auto;
+//     }
 
-    .site-nav ul li a {
-        font-size: 13px !important;
-    }
+//     .site-nav ul li a {
+//         font-size: 13px !important;
+//     }
 
-    .site-header .log-in .btn-log-in {
-        font-size: 13px;
-    }
+//     .site-header .log-in .btn-log-in {
+//         font-size: 13px;
+//     }
 
-    .site-main h4.latest-text {
-        margin: 2rem 0 0 3rem;
-        font-size: 12px !important;
-    }
+//     .site-main h4.latest-text {
+//         margin: 2rem 0 0 3rem;
+//         font-size: 12px !important;
+//     }
 
-    .site-header .search input[type=search] {	
-        width: 10rem;	
-    }
+//     .site-header .search input[type=search] {	
+//         width: 10rem;	
+//     }
 
-    .movie p {
-        font-size: 13px;
-    }
+//     .movie p {
+//         font-size: 13px;
+//     }
 
-    .site-footer .social ul li a {
-        padding: 0.5rem;
-        font-size: 20px;
-    }
+//     .site-footer .social ul li a {
+//         padding: 0.5rem;
+//         font-size: 20px;
+//     }
 
-    .site-footer {
-        font-size: 13px;
-    }
-}
+//     .site-footer {
+//         font-size: 13px;
+//     }
+// }
 
 @include bp(mobile_small) { // 320
 
@@ -366,8 +373,8 @@
     .site-footer {
         font-size: 12px;
     }
+
+    .bg {
+        margin-top: 9rem;
+    }
 }
-
-
-
-
