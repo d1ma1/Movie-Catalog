@@ -23,7 +23,7 @@ email: dima.dimova@mail.bg
 description: Movie catalog
 destination: docs
 baseurl: "/Movie-Catalog" # the subpath of your site, e.g. /blog
-url: "www.moviecatalog.online" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://d1ma1.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none
 github_username:  d1ma1
 
