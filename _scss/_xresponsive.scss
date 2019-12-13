@@ -95,12 +95,21 @@
 
     .bg {
         margin-top: 9rem;
+        // background-image: url('https://cdn1.vectorstock.com/i/1000x1000/54/55/merry-christmas-poster-happy-new-year-vector-22685455.jpg');
+        // opacity: 0.5;
+        min-height: 30vh;
+        background-position: top;
     }
 
     .movie {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 0.5%;
+    }
+
+    
+    .movie img {
+        justify-items: center;
     }
     
 }
@@ -563,6 +572,11 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+    .movie {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5%;
     }
 
 

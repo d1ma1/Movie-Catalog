@@ -71,13 +71,13 @@
 }
 
 .bg {
-    // background-image: url('/../images/cover.jpg');
-    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/54/55/merry-christmas-poster-happy-new-year-vector-22685455.jpg');
+    background-image: url('/../images/cover.jpg');
+    // background-image: url('https://cdn1.vectorstock.com/i/1000x1000/54/55/merry-christmas-poster-happy-new-year-vector-22685455.jpg');
     background-size: cover;
     background-position: center;
-    // max-height: 40vh;
+    min-height: 40vh;
     padding: 2em;
-    opacity: 0.5;
+    
     // border-bottom: 1px solid $color-orange;
 //     overflow: hidden;
 }
