@@ -11,6 +11,7 @@
   margin: 2.5rem 0 0 6rem;
   padding: 0.5rem 0.5rem;
   margin-bottom: 2.5rem;
+  text-transform: uppercase;
 }
 
 .register input[type="text"], .btn {
@@ -30,7 +31,7 @@
 }
 
 .btn-cancel {
-  background: blueviolet;
+  background: #89A1F0;
 }
 
 .btn-create {
@@ -58,7 +59,7 @@
   }
 
   .input-mp4 + label {
-    color: blueviolet;
+    color:#89A1F0;
     text-align: center;
     // margin-right: 15rem;
     

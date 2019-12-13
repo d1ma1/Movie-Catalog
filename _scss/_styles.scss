@@ -1,9 +1,12 @@
 
 .movie {
-    padding: 3rem 0.5rem;
+    padding: 3rem 2rem;
     margin-left: 6rem;
+    
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+
 
     p {
         font-weight: bold;
@@ -22,7 +25,7 @@
     }
 
     img {
-        height: 12vw;
+        height: 16vw;
         width: auto;
         border-radius: 0.3em;
         border: 1px solid black;
@@ -47,12 +50,15 @@
 
     .stars span{
         padding-left: 1rem;
+        
     }
 }
 
 .site-main h4.latest-text, .site-movies h4.latest-text {
     border-left: 0.2rem solid $color-orange;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    // font-weight: bold;
     font-weight: normal;
     color: $color-black;
     margin: 2.5rem 0 0 6rem;
@@ -94,7 +100,7 @@
     }
 
       .btn-subscribe {
-        background: $color-black;
+        background: #89A1F0;
         width: 25%;
         padding: 1rem;
       }
