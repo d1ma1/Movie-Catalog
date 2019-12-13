@@ -31,7 +31,7 @@
 }
 
 .btn-cancel {
-  background: #89A1F0;
+  background: $color-diff;
 }
 
 .btn-create {
@@ -59,7 +59,7 @@
   }
 
   .input-mp4 + label {
-    color:#89A1F0;
+    color: $color-diff;
     text-align: center;
     // margin-right: 15rem;
     

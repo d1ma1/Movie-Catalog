@@ -67,10 +67,43 @@
             background: $color-orange;
             
           }
-
-    
     }
 }
+
+.bg {
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/54/55/merry-christmas-poster-happy-new-year-vector-22685455.jpg');
+    //background-image: url('https://thestudioexec.com/wp-content/uploads/2013/01/dreamworks_animation_logo.png');
+   // background-image: url('https://i1.wp.com/yocover.com/wp-content/uploads/2019/02/50-collection-of-amazing-facebook-cover-photos-30.jpg?resize=700%2C259&ssl=1');
+
+   background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    // opacity: 0.7;
+    overflow: hidden;
+    border-bottom: 1px solid $color-orange;
+}
+
+// .bg {
+//     /* Set rules to fill background */
+//     min-height: 100%;
+//     min-width: 1024px;
+      
+//     /* Set up proportionate scaling */
+//     width: 100%;
+//     height: auto;
+      
+//     /* Set up positioning */
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//   }
+  
+//   @media screen and (max-width: 1024px) { /* Specific to this particular image */
+//     img.bg {
+//       left: 50%;
+//       margin-left: -512px;   /* 50% */
+//     }
+//   }
 
 
 
