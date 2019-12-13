@@ -1,31 +1,79 @@
+@include bp(desktop_large) {} // 1600
 
-@include bp(tablet) {
+@include bp(desktop_small){ //1100px
+      // navigation
+
+      .site-nav ul li {
+        border-left: 1px dotted white;
+
+    }
+
+    .site-nav ul li {
+        border-right: 1px dotted white;
+        background: $color-orange;
+    }
+
+    .site-nav ul li a {
+        float: left;
+        display: block;
+        // color: $color-black;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        // font-size: 14px;
+        border: none;
+    }
+
+
+    .site-nav ul li:nth-child(1) a {
+        border-left: none;
+    }
+
+    .site-nav {
+        background: none;
+        margin-bottom: 4rem;
+    }
+    
+}
+@include bp(tablet_large) { //980px
 
     font-size: 14px;
 
     // navigation
-    .site-nav ul li a {
-        padding: 0.5rem 1rem;
-        padding: 1rem 6rem;
 
-        // font-size: 12px;
+    .site-nav ul li {
+        border-left: 1px dotted white;
+
     }
+
     .site-nav ul li {
         border-right: 1px dotted white;
         background: $color-orange;
     }
 
-
     .site-nav ul li a {
-        padding: 0.5rem 1rem;;
-        // font-size: 12px;
-    }
-    .site-nav ul li {
-        border-right: 1px dotted white;
-        background: $color-orange;
+        float: left;
+        display: block;
+        // color: $color-black;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        // font-size: 14px;
+        border: none;
     }
 
-    .site-main, .site-header, .site-footer,  .movie   { //.site-nav ul,
+
+    .site-nav ul li:nth-child(1) a {
+        border-left: none;
+    }
+
+    .site-nav {
+        background: none;
+        margin-bottom: 4rem;
+
+    }
+    
+    .site-main, .site-header, .site-footer  { //.site-nav ul, ,  .movie 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -40,39 +88,19 @@
         // font-size: 12px;
     }
 
-    .site-nav ul li a {
-        float: left;
-        display: block;
-        // color: $color-black;
-        text-align: center;
-        padding: 5px;
-        text-decoration: none;
-        // font-size: 14px;
-        border: none;
+    .movie {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5%;
     }
-
-    .site-nav ul {
-       background:$color-orange;
-        
-    }
-
-
-    .site-nav ul li:nth-child(1) a {
-        border-left: none;
-    }
-
-    .site-nav {
-        background: none;
-        margin-bottom: 4rem;
-    }
-    
+   
     .list-grid-header {display: none;}
 
     .list-grid  {
 
         .invisible {
             opacity: 1;
-            color: blueviolet;
+            color: $color-diff;
          }
 
          border-top: 1px solid $color-lightgray;
@@ -177,42 +205,167 @@
     
     }
 
-}
 
-@include bp(mobile3) {
-
-    font-size: 12px;
-    .one-row .responsive  {
-      
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
-        
-        // padding-bottom: 2rem !important;
+    .o {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-height: 10r;
     }
-    // .one-row input+label {
-    //     font-size: 10px;
-    //     padding: 1rem !important;
 
+}
+
+
+@include bp(tablet_small) { //768
+
+    .bg {
+        display:none;
+    }
+
+    .site-header .search input[type=search] {	
+        width: 20rem;	
+    }
+
+    .site-nav {
+         margin-bottom: 0.5rem;
+         margin-left: 4rem;
+    }
+
+    .site-header .log-in {
+        margin: 1em;
+    }
+
+    .site-main h4.latest-text {
+        margin: 0.5rem 0 0 0.5rem;
+    }
+
+}
+
+
+
+@include bp(mobile_large) { // 640
+
+    // .site-header .search input[type=search] {	
+    //     width: 20rem;	
     // }
 
-    // .btn-cancel {
-    //     font-size: 10px;
+    // .site-nav { margin-bottom: 0.5rem;}
+
+    // .site-header .log-in {
+    //     margin: 1em;
+    // }
+
+    // .site-main h4.latest-text {
+    //     margin: 2rem 0 0 3rem;
     // }
 }
 
 
-@include bp(mobile2) {
+@include bp(mobile_medium) { // 480
 
-    // font-size: 12px;
+    .site-header .search input[type=search] {	
+        width: 15rem;	
+    }
 
-    // .one-row input+label {
-    //     font-size: 8px;
-    //     padding: 1rem !important;
+    .site-nav { margin-bottom: 0.5rem;}
 
-    //     background: red;
-    // }
+    .site-header .log-in {
+        margin: 1em;
+    }
+
+    .site-nav ul li {
+        border-bottom: 1px dotted #fff;
+        width: auto;
+    }
+
+    .site-nav ul li a {
+        font-size: 13px !important;
+    }
+
+    .site-header .log-in .btn-log-in {
+        font-size: 13px;
+    }
+
+    .site-main h4.latest-text {
+        margin: 2rem 0 0 3rem;
+        font-size: 12px !important;
+    }
+
+    .site-header .search input[type=search] {	
+        width: 10rem;	
+    }
+
+    .movie p {
+        font-size: 13px;
+    }
+
+    .site-footer .social ul li a {
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+
+    .site-footer {
+        font-size: 13px;
+    }
+}
+
+@include bp(mobile_small) { // 320
+
+    .subscribe {
+
+        input[type="email"] {
+            width: 100%;
+        }
+
+        .btn-subscribe {
+            width: 100%;
+        }
+        
+    }
+
+    .site-nav { margin-bottom: 1rem;}
+    .site-nav ul  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-nav ul li {
+        border-bottom: 1px dotted #fff;
+        width: auto;
+    }
+
+    .site-nav ul li a {
+        font-size: 12px !important;
+    }
+
+    .site-header .log-in .btn-log-in {
+        font-size: 12px;
+    }
+
+    .site-main h4.latest-text {
+        margin: 7rem 0 0 6rem;
+        font-size: 12px !important;
+    }
+
+    .site-header .search input[type=search] {	
+        width: 10rem;	
+    }
+
+    .movie p {
+        font-size: 12px;
+    }
+
+    .site-footer .social ul {
+        margin-left: 6rem;
+    }
+
+    .site-footer .social ul li a {
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+
+    .site-footer {
+        font-size: 12px;
+    }
 }
 
 
