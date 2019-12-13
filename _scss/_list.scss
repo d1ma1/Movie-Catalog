@@ -1,3 +1,9 @@
+
+.invisible {
+    opacity: 0;
+ }
+
+
 .list {
     margin-left: 6rem;
     margin-right: 6rem;
@@ -45,18 +51,19 @@
 }
 
 .nav-alphabet ul { 
-   display: flex;
-   padding-left: 5.5rem;
+   display: grid;
+   grid-template-columns: repeat(8,100px);
+   padding-left: 6rem;
    padding-bottom: 3em;
-
+   
    li {
     display: block;
 
         a {
             text-decoration: none;
             color: black;
-            padding: 1rem 3rem;
-            border-radius: 3em;
+            padding: 1rem 1rem;
+            border-radius: 100%;
             text-transform: uppercase;
             font-family: 'Kosugi Maru', sans-serif;
             margin: 0.5em;
