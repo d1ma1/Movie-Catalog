@@ -74,6 +74,34 @@
     .site-header .search input[type=search] {	
         width: 10rem;	
     }
+
+    
+    .movie p {
+        font-size: 12px;
+    }
+
+    .site-footer .social ul {
+        margin-left: 6rem;
+    }
+
+    .site-footer .social ul li a {
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+
+    .site-footer {
+        font-size: 12px;
+    }
+
+    .bg {
+        margin-top: 9rem;
+    }
+
+    .movie {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5%;
+    }
     
 }
 
@@ -443,26 +471,26 @@
     //     width: 10rem;	
     // }
 
-    .movie p {
-        font-size: 12px;
-    }
+    // .movie p {
+    //     font-size: 12px;
+    // }
 
-    .site-footer .social ul {
-        margin-left: 6rem;
-    }
+    // .site-footer .social ul {
+    //     margin-left: 6rem;
+    // }
 
-    .site-footer .social ul li a {
-        padding: 0.5rem;
-        font-size: 20px;
-    }
+    // .site-footer .social ul li a {
+    //     padding: 0.5rem;
+    //     font-size: 20px;
+    // }
 
-    .site-footer {
-        font-size: 12px;
-    }
+    // .site-footer {
+    //     font-size: 12px;
+    // }
 
-    .bg {
-        margin-top: 9rem;
-    }
+    // .bg {
+    //     margin-top: 9rem;
+    // }
 }
 
 */
@@ -490,13 +518,55 @@
         font-size: 12px;
     }
 
-    .site-main h4.latest-text {
-        margin: 7rem 0 0 6rem;
-        font-size: 12px !important;
-    }
-
     .site-header .search input[type=search] {	
         width: 10rem;	
     }
+    
+    .site-main h4.latest-text {
+        margin: 1rem 0 0 5rem;
+        font-size: 12px!important;
+    }
 
+    .movie {
+        justify-items: center;
+    }
+
+    .movie i, .movie p {
+        font-size: 12px !important;
+    }
+
+    // .movie img {
+    //     justify-items: center;
+    // }
+
+    
+    .site-footer .social ul {
+        margin-left: 6rem;
+    }
+
+    .site-footer .social ul li a {
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+
+    .site-footer {
+        font-size: 12px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .subscribe p {
+        font-size: 12px;
+    }
+
+    .subscribe form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    // .bg {
+    //    max-width: 2rem !;
+    // }
 }
