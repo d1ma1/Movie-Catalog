@@ -249,7 +249,23 @@
 
 
 
-@include bp(mobile_large) { // 640
+@include bp(mobile_large) { 
+    
+    .site-nav { margin-bottom: 1rem;}
+    .site-nav ul  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-nav ul li {
+        border-bottom: 1px dotted #fff;
+        width: auto;
+    }
+
+    .site-nav ul li a {
+        font-size: 12px !important;
+    }
+// 640
 
     // .site-header .search input[type=search] {	
     //     width: 20rem;	
@@ -329,21 +345,7 @@
         
     }
 
-    .site-nav { margin-bottom: 1rem;}
-    .site-nav ul  {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .site-nav ul li {
-        border-bottom: 1px dotted #fff;
-        width: auto;
-    }
-
-    .site-nav ul li a {
-        font-size: 12px !important;
-    }
-
+   
     .site-header .log-in .btn-log-in {
         font-size: 12px;
     }
