@@ -78,8 +78,8 @@
             background: $color-diff;
             color: white;
 
-            width: 50vw;
-            height: 50vw;
+            // width: 50%;
+            // height: 50%;
             background: linear-gradient(90deg, white 0%, $color-diff2 35%, $color-diff 100%); 
             border-radius: 50%
         }
@@ -87,14 +87,6 @@
     li a:hover {
         font-weight: bold;
     }
-
-    // li:nth-child(1) a,  li:nth-child(2) a,  li:nth-child(3) a,  li:nth-child(4) a {
-    //     background-color: $color-diff2;
-    // }
-
-    // background: rgb(2,0,36);
-    // li: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    
 }
 
 .list-img {
