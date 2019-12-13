@@ -36,9 +36,35 @@
              }
          }
      }
-}
 
-// @include bp(mobile_small) { // 320
+     .news {
 
+        display: grid;
+        grid-template-columns: 1fr;
     
-// }
+        .title {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .first-new {
+            padding-bottom: 2rem;
+        }
+    
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .register-movie input:nth-child(7), .register-movie input:nth-child(8){
+        width: 37%;
+      }
+
+      ::-webkit-input-placeholder {
+        font-size: 10px;
+      }
+      
+      .btn-create {
+        margin: 2rem 1rem;
+      }
+}

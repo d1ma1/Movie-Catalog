@@ -1,6 +1,7 @@
 .register-movie {
   margin-bottom: 2em;
   padding-left: 6em;
+
 }
 
 .register h4.latest-text, .site-movies h4.latest-text {
@@ -26,23 +27,21 @@
   text-align: center;
 }
 
-.register-movie input:nth-child(6), .register-movie input:nth-child(7){
+.register-movie input:nth-child(7), .register-movie input:nth-child(8){
   width: 39%;
-}
-
-.btn-cancel {
-  background: $color-diff;
 }
 
 .btn-create {
   background: $color-orange;
-  margin-right: 1rem;
+  margin: 2rem 4rem;
+  border-radius: 50%;
 }
 
 .one-row {
-  margin-top: 2rem;
-  margin-left: 2rem;
+  display: flex;
 }
+
+
 .inputfile, .input-mp4 {
   width: 0.1px;
   height: 0.1px;
@@ -50,26 +49,25 @@
   overflow: hidden;
   position: absolute;
   z-index: -1;
+
 }
 
   .inputfile + label {
     color: $color-orange;
     text-align: center;
-    margin-right: 1rem;
   }
 
   .input-mp4 + label {
     color: $color-diff;
     text-align: center;
-    // margin-right: 15rem;
     
   }
 
   .one-row input + label{
     font-weight:bold;
-    background-color: $color-lightgray;
-    border: 1px solid gray;
-    font-size: 16px;
-    padding: 10px 40px;
-    box-shadow: 0 0 1em 0 rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    padding: 1rem 1rem 0 1rem;
+    text-decoration: underline;
+
   }
+
