@@ -11,13 +11,12 @@
     p {
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color:  $color-black;
         padding-bottom: 0.5rem;
     }
 
     i {
-        color: orange;
-        
+        color: $color-orange;   
     }
 
     span .gray{
@@ -28,11 +27,10 @@
         height: 16vw;
         width: auto;
         border-radius: 0.3em;
-        border: 1px solid black;
+        border: 1px solid $color-black;
         background-color: $color-lightgray;
         padding: 0.5em;
     }
-
 
     .stars i:nth-child(10), .movie3 .stars i:nth-child(9) {
         color: $color-lightgray;
@@ -44,7 +42,7 @@
     }
 
     i:hover {
-        color: gray;
+        color: $color-lightgray;
         transition: color 0.3s ease-out;
     }
 
@@ -98,9 +96,9 @@
         border: none;
     }
 
-      .btn-subscribe {
-        background:  $color-diff;
-        width: 25%;
-        padding: 1rem;
-      }
+    .btn-subscribe {
+    background:  $color-diff;
+    width: 25%;
+    padding: 1rem;
+    }
 }

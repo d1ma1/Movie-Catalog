@@ -1,6 +1,5 @@
  @include bp(desktop_small)
  { 
-
     .list-grid-header {display: none;}
 
     .list-grid  {
@@ -18,8 +17,7 @@
     .nav-alphabet ul { 
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 0 0 1,5rem 6rem;
-        
+        padding: 0 0 1,5rem 6rem; 
         
         li {
          display: block;
@@ -72,7 +70,6 @@
 
       .one-row input+label {
         font-weight: normal;
-
         font-size: 13px;
         padding: 0rem 0 0 1rem;
      }

@@ -23,7 +23,6 @@
         text-align: center;
         padding: 5px;
         text-decoration: none;
-
         border: none;
     }
 
@@ -46,7 +45,6 @@
         .btn-subscribe {
             width: 100%;
         }
-        
     }
 
     .site-header {
@@ -123,8 +121,7 @@
         flex-direction: column;
         width: 100%;
     }
-
-
+    
 }
 
 @include bp(mobile_small) { 
@@ -159,11 +156,6 @@
     .site-header .search input[type=search] {	
         width: 10rem;	
     }
-    
-    .site-main h4.latest-text {
-        margin: 1rem 0 0 3rem !important;
-        font-size: 12px !important;
-    }
 
     .movie {
         justify-items: center;
@@ -186,6 +178,10 @@
     .site-footer .social ul li a {
         padding: 0.5rem;
         font-size: 10px !important;
+    }
+  
+    .latest-text, .news-latest-text {
+        margin: 0.5rem 0 0 3rem !important;
     }
 
 }
