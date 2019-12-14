@@ -62,7 +62,7 @@
         }
         
         img {
-            width: 30vw;
+            width:40vw;
         }
     }
 
@@ -159,5 +159,10 @@
      .one-row input+label {
         font-weight: normal;
         padding: 0rem 0 0 1rem;
+        
+     }
+
+     .one-row {
+         display: flex;
      }
 }
