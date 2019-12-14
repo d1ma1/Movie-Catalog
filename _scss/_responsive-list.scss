@@ -87,9 +87,9 @@
 }
 
 // to be deleted
-@include bp(mobile_medium)
+@include bp(mobile_large)
 { //1100px
-
+    
     .body {background-color: black;}
    .list-grid-header {display: none;}
 

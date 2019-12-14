@@ -211,7 +211,7 @@
 /** то бе делетед*/
 
 @include bp(mobile_medium){ //1100px
-    body {background-color: black;}
+    // body {background-color: black;}
     .site-nav ul {
         display: grid;
         grid-template-columns: 1fr;
