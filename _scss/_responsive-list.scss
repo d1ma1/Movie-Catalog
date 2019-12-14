@@ -62,7 +62,7 @@
         }
         
         img {
-            width: 40vw;
+            width: 30vw;
         }
     }
 
@@ -154,5 +154,10 @@
      
      .btn-create {
        margin: 2rem 1rem;
+     }
+
+     .one-row input+label {
+        font-weight: normal;
+        padding: 0rem 0 0 1rem;
      }
 }

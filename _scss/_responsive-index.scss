@@ -92,7 +92,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0.5%;
-        margin-left: 4rem;
+        margin-left: 3rem;
     }
 
     
@@ -162,7 +162,7 @@
     }
     
     .site-main h4.latest-text {
-        margin: 1rem 0 0 5rem;
+        margin: 1rem 0 0 3rem !important;
         font-size: 12px !important;
     }
 
@@ -175,11 +175,11 @@
     }
     
  
-    .movie {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.5%;
-    }
+    // .movie {
+    //     display: grid;
+    //     grid-template-columns: 1fr;
+    //     gap: 0.5%;
+    // }
 
     .site-footer {
         display: flex !important;
@@ -291,11 +291,11 @@
         background-position: top;
     }
 
-    .movie {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0.5%;
-    }
+    // .movie {
+    //     display: grid;
+    //     grid-template-columns: 1fr 1fr;
+    //     gap: 0.5%;
+    // }
 
     
     .movie img {
