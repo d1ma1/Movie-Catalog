@@ -83,6 +83,7 @@
 @include bp(mobile_medium)
 { //1100px
 
+    .body {background-color: black;}
    .list-grid-header {display: none;}
 
    .list-grid  {
