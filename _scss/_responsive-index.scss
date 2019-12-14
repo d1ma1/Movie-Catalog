@@ -124,7 +124,15 @@
         flex-direction: column;
         width: 100%;
     }
-    
+
+
+}
+
+@include bp(mobile_large) {
+    .bg {
+        background-image: url('/../images/half_cover.jpg');
+        // min-height: 40vh;
+    }
 }
 
 @include bp(mobile_small) { // 320
@@ -195,6 +203,7 @@
         padding: 0.5rem;
         font-size: 10px !important;
     }
+
 }
 
 
