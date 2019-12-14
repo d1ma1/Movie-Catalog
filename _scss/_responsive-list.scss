@@ -79,7 +79,7 @@
       }
 }
 
-
+// to be deleted
 @include bp(mobile_medium)
 { //1100px
 
@@ -127,8 +127,8 @@
 
     .news {
 
-       display: grid;
-       grid-template-columns: 1fr;
+       display: block;
+    //    grid-template-columns: 1fr;
    
        .title {
            font-size: 13px;
