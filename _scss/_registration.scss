@@ -41,7 +41,6 @@
   display: flex;
 }
 
-
 .inputfile, .input-mp4 {
   width: 0.1px;
   height: 0.1px;
@@ -52,22 +51,22 @@
 
 }
 
-  .inputfile + label {
-    color: $color-orange;
-    text-align: center;
-  }
+.inputfile + label {
+  color: $color-orange;
+  text-align: center;
+}
 
-  .input-mp4 + label {
-    color: $color-diff;
-    text-align: center;
-    
-  }
+.input-mp4 + label {
+  color: $color-diff;
+  text-align: center;
+  
+}
 
-  .one-row input + label{
-    font-weight:bold;
-    font-size: 18px;
-    padding: 1rem 0 0 1rem;
-    text-decoration: underline;
+.one-row input + label{
+  font-weight:bold;
+  font-size: 18px;
+  padding: 1rem 0 0 1rem;
+  text-decoration: underline;
 
-  }
+}
 
