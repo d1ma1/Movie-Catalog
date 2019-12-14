@@ -1,8 +1,8 @@
 .news {
 
-    border: 1px solid $color-lightgray;
+    border-bottom: 1px solid $color-lightgray;
     border-radius: 0.3rem;
-    padding: 2rem 6rem;
+    padding: 0 6rem;
     display: flex;
 
 
@@ -26,3 +26,14 @@
     }
 
 }
+
+.news-latest-text {
+    border-left: 0.2rem solid $color-orange;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: $color-black;
+    margin: 2.5rem 0 0 6rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+  }
