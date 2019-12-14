@@ -77,6 +77,13 @@
       .btn-create {
         margin: 2rem 1rem;
       }
+
+      .one-row input+label {
+        font-weight: normal;
+
+        font-size: 12px;
+        padding: 0rem 0 0 1rem;
+     }
 }
 
 // to be deleted
