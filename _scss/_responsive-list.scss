@@ -58,7 +58,11 @@
 
     .register-movie input:nth-child(7), .register-movie input:nth-child(8){
         width: 37%;
-      }
+    }
+
+    .register-movie {
+        padding-left: 3em;
+    }
 
       ::-webkit-input-placeholder {
         font-size: 10px;
